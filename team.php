@@ -49,7 +49,7 @@
                     <div class="row">
                         <div class="col-md-2 col-lg-2 col-sm-3 col-xs-3">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="images/logo/logo.png" alt="logo">
                                 </a>
                             </div>
@@ -58,32 +58,32 @@
                         <div class="col-md-8 col-lg-8 col-sm-6 col-xs-6">
                             <nav class="mainmenu__nav hidden-xs hidden-sm">
                                 <ul class="main__menu">
-                                    <li class="drop"><a href="index.html">Home</a></li>
-                                    <li class="drop"><a href="portfolio-card-box-2.html">portfolio</a>
+                                    <li class="drop"><a href="index.php">Home</a></li>
+                                    <li class="drop"><a href="portfolio-card-box-2.php">portfolio</a>
                                         <ul class="dropdown">
-                                            <li><a href="portfolio-card-box-2.html">portfolio</a></li>
-                                            <li><a href="single-portfolio.html">Single portfolio</a></li>
+                                            <li><a href="portfolio-card-box-2.php">portfolio</a></li>
+                                            <li><a href="single-portfolio.php">Single portfolio</a></li>
                                         </ul>
                                     </li>
                                     <li class="drop"><a href="blog.php">Blog</a>
                                         <ul class="dropdown">
                                             <li><a href="blog.php">blog 3 column</a></li>
-                                            <li><a href="blog-details.html">Blog details</a></li>
+                                            <li><a href="blog-details.php">Blog details</a></li>
                                         </ul>
                                     </li>
-                                    <li class="drop"><a href="shop.html">Shop</a>
+                                    <li class="drop"><a href="shop.php">Shop</a>
                                         <ul class="dropdown mega_dropdown">
                                             <!-- Start Single Mega MEnu -->
-                                            <li><a class="mega__title" href="shop.html">shop layout</a>
+                                            <li><a class="mega__title" href="shop.php">shop layout</a>
                                                 <ul class="mega__item">
-                                                    <li><a href="shop.html">default shop</a></li>
+                                                    <li><a href="shop.php">default shop</a></li>
                                                 </ul>
                                             </li>
                                             <!-- End Single Mega MEnu -->
                                             <!-- Start Single Mega MEnu -->
-                                            <li><a class="mega__title" href="shop.html">product details layout</a>
+                                            <li><a class="mega__title" href="shop.php">product details layout</a>
                                                 <ul class="mega__item">
-                                                    <li><a href="product-details.html">tab style 1</a></li></li>
+                                                    <li><a href="product-details.php">tab style 1</a></li></li>
                                                 </ul>
                                             </li>
                                             <!-- End Single Mega MEnu -->
@@ -92,7 +92,7 @@
                                                 <ul class="mega__item">
                                                     <li>
                                                         <div class="mega-item-img">
-                                                            <a href="shop.html">
+                                                            <a href="shop.php">
                                                                 <img src="images/feature-img/3.png" alt="">
                                                             </a>
                                                         </div>
@@ -107,53 +107,53 @@
                                             <li><a href="about.php">about</a></li>
                                             <li><a href="#">testimonials <span><i class="zmdi zmdi-chevron-right"></i></span></a>
                                                 <ul class="lavel-dropdown">
-                                                    <li><a href="customer-review.html">customer review</a></li>
+                                                    <li><a href="customer-review.php">customer review</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="shop.html">shop</a></li>
+                                            <li><a href="shop.php">shop</a></li>
                                             <li><a href="shop-sidebar.html">shop sidebar</a></li>
-                                            <li><a href="product-details.html">product details</a></li>
-                                            <li><a href="cart.html">cart</a></li>
-                                            <li><a href="wishlist.html">wishlist</a></li>
-                                            <li><a href="checkout.html">checkout</a></li>
-                                            <li><a href="team.html">team</a></li>
-                                            <li><a href="login-register.html">login & register</a></li>
+                                            <li><a href="product-details.php">product details</a></li>
+                                            <li><a href="cart.php">cart</a></li>
+                                            <li><a href="wishlist.php">wishlist</a></li>
+                                            <li><a href="checkout.php">checkout</a></li>
+                                            <li><a href="team.php">team</a></li>
+                                            <li><a href="login-register.php">login & register</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">contact</a></li>
+                                    <li><a href="contact.php">contact</a></li>
                                 </ul>
                             </nav>
                             <div class="mobile-menu clearfix visible-xs visible-sm">
                                 <nav id="mobile_dropdown">
                                     <ul>
-                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="index.php">Home</a></li>
                                         <li><a href="#">portfolio</a>
                                             <ul>
-                                                <li><a href="portfolio-card-box-2.html">portfolio</a></li>
-                                                <li><a href="single-portfolio.html">Single portfolio</a></li>
+                                                <li><a href="portfolio-card-box-2.php">portfolio</a></li>
+                                                <li><a href="single-portfolio.php">Single portfolio</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="blog.php">blog</a>
                                             <ul>
                                                 <li><a href="blog.php">blog 3 column</a></li>
-                                                <li><a href="blog-details.html">Blog details</a></li>
+                                                <li><a href="blog-details.php">Blog details</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">pages</a>
                                             <ul>
                                                 <li><a href="about.php">about</a></li>
-                                                <li><a href="customer-review.html">customer review</a></li>
-                                                <li><a href="shop.html">shop</a></li>
+                                                <li><a href="customer-review.php">customer review</a></li>
+                                                <li><a href="shop.php">shop</a></li>
                                                 <li><a href="shop-sidebar.html">shop sidebar</a></li>
-                                                <li><a href="product-details.html">product details</a></li>
-                                                <li><a href="cart.html">cart</a></li>
-                                                <li><a href="wishlist.html">wishlist</a></li>
-                                                <li><a href="checkout.html">checkout</a></li>
-                                                <li><a href="team.html">team</a></li>
-                                                <li><a href="login-register.html">login & register</a></li>
+                                                <li><a href="product-details.php">product details</a></li>
+                                                <li><a href="cart.php">cart</a></li>
+                                                <li><a href="wishlist.php">wishlist</a></li>
+                                                <li><a href="checkout.php">checkout</a></li>
+                                                <li><a href="team.php">team</a></li>
+                                                <li><a href="login-register.php">login & register</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">contact</a></li>
+                                        <li><a href="contact.php">contact</a></li>
                                     </ul>
                                 </nav>
                             </div>                         
@@ -162,7 +162,7 @@
                         <div class="col-md-2 col-sm-4 col-xs-3">  
                             <ul class="menu-extra">
                                 <li class="search search__open hidden-xs"><span class="ti-search"></span></li>
-                                <li><a href="login-register.html"><span class="ti-user"></span></a></li>
+                                <li><a href="login-register.php"><span class="ti-user"></span></a></li>
                                 <li class="cart__menu"><span class="ti-shopping-cart"></span></li>
                                 <li class="toggle__menu hidden-xs hidden-sm"><span class="ti-menu"></span></li>
                             </ul>
@@ -205,7 +205,7 @@
                     </div>
                     <div class="off__contact">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="images/logo/logo.png" alt="logo">
                             </a>
                         </div>
@@ -270,7 +270,7 @@
                                 </a>
                             </div>
                             <div class="shp__pro__details">
-                                <h2><a href="product-details.html">BO&Play Wireless Speaker</a></h2>
+                                <h2><a href="product-details.php">BO&Play Wireless Speaker</a></h2>
                                 <span class="quantity">QTY: 1</span>
                                 <span class="shp__price">$105.00</span>
                             </div>
@@ -285,7 +285,7 @@
                                 </a>
                             </div>
                             <div class="shp__pro__details">
-                                <h2><a href="product-details.html">Brone Candle</a></h2>
+                                <h2><a href="product-details.php">Brone Candle</a></h2>
                                 <span class="quantity">QTY: 1</span>
                                 <span class="shp__price">$25.00</span>
                             </div>
@@ -299,8 +299,8 @@
                         <li class="total__price">$130.00</li>
                     </ul>
                     <ul class="shopping__btn">
-                        <li><a href="cart.html">View Cart</a></li>
-                        <li class="shp__checkout"><a href="checkout.html">Checkout</a></li>
+                        <li><a href="cart.php">View Cart</a></li>
+                        <li class="shp__checkout"><a href="checkout.php">Checkout</a></li>
                     </ul>
                 </div>
             </div>
@@ -316,7 +316,7 @@
                             <div class="bradcaump__inner text-center">
                                 <h2 class="bradcaump-title">Team</h2>
                                 <nav class="bradcaump-inner">
-                                  <a class="breadcrumb-item" href="index.html">Home</a>
+                                  <a class="breadcrumb-item" href="index.php">Home</a>
                                   <span class="brd-separetor">/</span>
                                   <span class="breadcrumb-item active">Team</span>
                                 </nav>
@@ -568,7 +568,7 @@
                         <div class="col-md-3 col-lg-3 col-sm-6">
                             <div class="ft__widget">
                                 <div class="ft__logo">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <img src="images/logo/logo.png" alt="footer logo">
                                     </a>
                                 </div>
@@ -629,7 +629,7 @@
                                 <h2 class="ft__title">Infomation</h2>
                                 <ul class="footer-categories">
                                     <li><a href="about.php">About Us</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="contact.php">Contact Us</a></li>
                                     <li><a href="#">Terms & Conditions</a></li>
                                     <li><a href="#">Returns & Exchanges</a></li>
                                     <li><a href="#">Shipping & Delivery</a></li>
@@ -675,9 +675,9 @@
                                     All Right Reserved.</p>
                                 </div>
                                 <ul class="footer__menu">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="shop.html">Product</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="index.php">Home</a></li>
+                                    <li><a href="shop.php">Product</a></li>
+                                    <li><a href="contact.php">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>

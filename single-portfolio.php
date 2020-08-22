@@ -49,7 +49,7 @@
                     <div class="row">
                         <div class="col-md-2 col-lg-2 col-sm-3 col-xs-3">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="images/logo/logo.png" alt="logo">
                                 </a>
                             </div>
@@ -58,32 +58,32 @@
                         <div class="col-md-8 col-lg-8 col-sm-6 col-xs-6">
                             <nav class="mainmenu__nav hidden-xs hidden-sm">
                                 <ul class="main__menu">
-                                    <li class="drop"><a href="index.html">Home</a></li>
-                                    <li class="drop"><a href="portfolio-card-box-2.html">portfolio</a>
+                                    <li class="drop"><a href="index.php">Home</a></li>
+                                    <li class="drop"><a href="portfolio-card-box-2.php">portfolio</a>
                                         <ul class="dropdown">
-                                            <li><a href="portfolio-card-box-2.html">portfolio</a></li>
-                                            <li><a href="single-portfolio.html">Single portfolio</a></li>
+                                            <li><a href="portfolio-card-box-2.php">portfolio</a></li>
+                                            <li><a href="single-portfolio.php">Single portfolio</a></li>
                                         </ul>
                                     </li>
                                     <li class="drop"><a href="blog.php">Blog</a>
                                         <ul class="dropdown">
                                             <li><a href="blog.php">blog 3 column</a></li>
-                                            <li><a href="blog-details.html">Blog details</a></li>
+                                            <li><a href="blog-details.php">Blog details</a></li>
                                         </ul>
                                     </li>
-                                    <li class="drop"><a href="shop.html">Shop</a>
+                                    <li class="drop"><a href="shop.php">Shop</a>
                                         <ul class="dropdown mega_dropdown">
                                             <!-- Start Single Mega MEnu -->
-                                            <li><a class="mega__title" href="shop.html">shop layout</a>
+                                            <li><a class="mega__title" href="shop.php">shop layout</a>
                                                 <ul class="mega__item">
-                                                    <li><a href="shop.html">default shop</a></li>
+                                                    <li><a href="shop.php">default shop</a></li>
                                                 </ul>
                                             </li>
                                             <!-- End Single Mega MEnu -->
                                             <!-- Start Single Mega MEnu -->
-                                            <li><a class="mega__title" href="shop.html">product details layout</a>
+                                            <li><a class="mega__title" href="shop.php">product details layout</a>
                                                 <ul class="mega__item">
-                                                    <li><a href="product-details.html">tab style 1</a></li></li>
+                                                    <li><a href="product-details.php">tab style 1</a></li></li>
                                                 </ul>
                                             </li>
                                             <!-- End Single Mega MEnu -->
@@ -92,7 +92,7 @@
                                                 <ul class="mega__item">
                                                     <li>
                                                         <div class="mega-item-img">
-                                                            <a href="shop.html">
+                                                            <a href="shop.php">
                                                                 <img src="images/feature-img/3.png" alt="">
                                                             </a>
                                                         </div>
@@ -107,53 +107,53 @@
                                             <li><a href="about.php">about</a></li>
                                             <li><a href="#">testimonials <span><i class="zmdi zmdi-chevron-right"></i></span></a>
                                                 <ul class="lavel-dropdown">
-                                                    <li><a href="customer-review.html">customer review</a></li>
+                                                    <li><a href="customer-review.php">customer review</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="shop.html">shop</a></li>
+                                            <li><a href="shop.php">shop</a></li>
                                             <li><a href="shop-sidebar.html">shop sidebar</a></li>
-                                            <li><a href="product-details.html">product details</a></li>
-                                            <li><a href="cart.html">cart</a></li>
-                                            <li><a href="wishlist.html">wishlist</a></li>
-                                            <li><a href="checkout.html">checkout</a></li>
-                                            <li><a href="team.html">team</a></li>
-                                            <li><a href="login-register.html">login & register</a></li>
+                                            <li><a href="product-details.php">product details</a></li>
+                                            <li><a href="cart.php">cart</a></li>
+                                            <li><a href="wishlist.php">wishlist</a></li>
+                                            <li><a href="checkout.php">checkout</a></li>
+                                            <li><a href="team.php">team</a></li>
+                                            <li><a href="login-register.php">login & register</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">contact</a></li>
+                                    <li><a href="contact.php">contact</a></li>
                                 </ul>
                             </nav>
                             <div class="mobile-menu clearfix visible-xs visible-sm">
                                 <nav id="mobile_dropdown">
                                     <ul>
-                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="index.php">Home</a></li>
                                         <li><a href="#">portfolio</a>
                                             <ul>
-                                                <li><a href="portfolio-card-box-2.html">portfolio</a></li>
-                                                <li><a href="single-portfolio.html">Single portfolio</a></li>
+                                                <li><a href="portfolio-card-box-2.php">portfolio</a></li>
+                                                <li><a href="single-portfolio.php">Single portfolio</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="blog.php">blog</a>
                                             <ul>
                                                 <li><a href="blog.php">blog 3 column</a></li>
-                                                <li><a href="blog-details.html">Blog details</a></li>
+                                                <li><a href="blog-details.php">Blog details</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">pages</a>
                                             <ul>
                                                 <li><a href="about.php">about</a></li>
-                                                <li><a href="customer-review.html">customer review</a></li>
-                                                <li><a href="shop.html">shop</a></li>
+                                                <li><a href="customer-review.php">customer review</a></li>
+                                                <li><a href="shop.php">shop</a></li>
                                                 <li><a href="shop-sidebar.html">shop sidebar</a></li>
-                                                <li><a href="product-details.html">product details</a></li>
-                                                <li><a href="cart.html">cart</a></li>
-                                                <li><a href="wishlist.html">wishlist</a></li>
-                                                <li><a href="checkout.html">checkout</a></li>
-                                                <li><a href="team.html">team</a></li>
-                                                <li><a href="login-register.html">login & register</a></li>
+                                                <li><a href="product-details.php">product details</a></li>
+                                                <li><a href="cart.php">cart</a></li>
+                                                <li><a href="wishlist.php">wishlist</a></li>
+                                                <li><a href="checkout.php">checkout</a></li>
+                                                <li><a href="team.php">team</a></li>
+                                                <li><a href="login-register.php">login & register</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">contact</a></li>
+                                        <li><a href="contact.php">contact</a></li>
                                     </ul>
                                 </nav>
                             </div>                         
@@ -162,7 +162,7 @@
                         <div class="col-md-2 col-sm-4 col-xs-3">  
                             <ul class="menu-extra">
                                 <li class="search search__open hidden-xs"><span class="ti-search"></span></li>
-                                <li><a href="login-register.html"><span class="ti-user"></span></a></li>
+                                <li><a href="login-register.php"><span class="ti-user"></span></a></li>
                                 <li class="cart__menu"><span class="ti-shopping-cart"></span></li>
                                 <li class="toggle__menu hidden-xs hidden-sm"><span class="ti-menu"></span></li>
                             </ul>
@@ -174,7 +174,6 @@
             <!-- End Mainmenu Area -->
         </header>
         <!-- End Header Style -->
-        
         <div class="body__overlay"></div>
         <!-- Start Offset Wrapper -->
         <div class="offset__wrapper">
@@ -205,7 +204,7 @@
                     </div>
                     <div class="off__contact">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="images/logo/logo.png" alt="logo">
                             </a>
                         </div>
@@ -270,7 +269,7 @@
                                 </a>
                             </div>
                             <div class="shp__pro__details">
-                                <h2><a href="product-details.html">BO&Play Wireless Speaker</a></h2>
+                                <h2><a href="product-details.php">BO&Play Wireless Speaker</a></h2>
                                 <span class="quantity">QTY: 1</span>
                                 <span class="shp__price">$105.00</span>
                             </div>
@@ -285,7 +284,7 @@
                                 </a>
                             </div>
                             <div class="shp__pro__details">
-                                <h2><a href="product-details.html">Brone Candle</a></h2>
+                                <h2><a href="product-details.php">Brone Candle</a></h2>
                                 <span class="quantity">QTY: 1</span>
                                 <span class="shp__price">$25.00</span>
                             </div>
@@ -299,8 +298,8 @@
                         <li class="total__price">$130.00</li>
                     </ul>
                     <ul class="shopping__btn">
-                        <li><a href="cart.html">View Cart</a></li>
-                        <li class="shp__checkout"><a href="checkout.html">Checkout</a></li>
+                        <li><a href="cart.php">View Cart</a></li>
+                        <li class="shp__checkout"><a href="checkout.php">Checkout</a></li>
                     </ul>
                 </div>
             </div>
@@ -314,11 +313,11 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="bradcaump__inner text-center">
-                                <h2 class="bradcaump-title">Checkout</h2>
+                                <h2 class="bradcaump-title">single portfolio</h2>
                                 <nav class="bradcaump-inner">
-                                  <a class="breadcrumb-item" href="index.html">Home</a>
+                                  <a class="breadcrumb-item" href="index.php">Home</a>
                                   <span class="brd-separetor">/</span>
-                                  <span class="breadcrumb-item active">Checkout</span>
+                                  <span class="breadcrumb-item active">single portfolio</span>
                                 </nav>
                             </div>
                         </div>
@@ -327,110 +326,125 @@
             </div>
         </div>
         <!-- End Bradcaump area -->
-        <!-- Start Checkout Area -->
-        <section class="our-checkout-area ptb--120 bg__white">
+        <div class="single-portfolio-area bg__white ptb--100">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-lg-8">
-                        <div class="ckeckout-left-sidebar">
-                            <!-- Start Checkbox Area -->
-                            <div class="checkout-form">
-                                <h2 class="section-title-3">Billing details</h2>
-                                <div class="checkout-form-inner">
-                                    <div class="single-checkout-box">
-                                        <input type="text" placeholder="First Name*">
-                                        <input type="text" placeholder="Last Name*">
-                                    </div>
-                                    <div class="single-checkout-box">
-                                        <input type="email" placeholder="Emil*">
-                                        <input type="text" placeholder="Phone*">
-                                    </div>
-                                    <div class="single-checkout-box">
-                                        <textarea name="message" placeholder="Message*"></textarea>
-                                    </div>
-                                    <div class="single-checkout-box select-option mt--40">
-                                        <select>
-                                            <option>Country*</option>
-                                            <option>Bangladesh</option>
-                                            <option>Bangladesh</option>
-                                            <option>Bangladesh</option>
-                                            <option>Bangladesh</option>
-                                        </select>
-                                        <input type="text" placeholder="Company Name*">
-                                    </div>
-                                    <div class="single-checkout-box">
-                                        <input type="email" placeholder="State*">
-                                        <input type="text" placeholder="Zip Code*">
-                                    </div>
-                                    <div class="single-checkout-box checkbox">
-                                        <input id="remind-me" type="checkbox">
-                                        <label for="remind-me"><span></span>Create a Account ?</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Checkbox Area -->
-                            <!-- Start Payment Box -->
-                            <div class="payment-form">
-                                <h2 class="section-title-3">payment details</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur kgjhyt</p>
-                                <div class="payment-form-inner">
-                                    <div class="single-checkout-box">
-                                        <input type="text" placeholder="Name on Card*">
-                                        <input type="text" placeholder="Card Number*">
-                                    </div>
-                                    <div class="single-checkout-box select-option">
-                                        <select>
-                                            <option>Date*</option>
-                                            <option>Date</option>
-                                            <option>Date</option>
-                                            <option>Date</option>
-                                            <option>Date</option>
-                                        </select>
-                                        <input type="text" placeholder="Security Code*">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Payment Box -->
-                            <!-- Start Payment Way -->
-                            <div class="our-payment-sestem">
-                                <h2 class="section-title-3">We  Accept :</h2>
-                                <ul class="payment-menu">
-                                    <li><a href="#"><img src="images/payment/1.jpg" alt="payment-img"></a></li>
-                                    <li><a href="#"><img src="images/payment/2.jpg" alt="payment-img"></a></li>
-                                    <li><a href="#"><img src="images/payment/3.jpg" alt="payment-img"></a></li>
-                                    <li><a href="#"><img src="images/payment/4.jpg" alt="payment-img"></a></li>
-                                    <li><a href="#"><img src="images/payment/5.jpg" alt="payment-img"></a></li>
-                                </ul>
-                                <div class="checkout-btn">
-                                    <a class="ts-btn btn-light btn-large hover-theme" href="#">CONFIRM & BUY NOW</a>
-                                </div>    
-                            </div>
-                            <!-- End Payment Way -->
+                    <div class="col-md-7">
+                        <div class="single-portfolio-img">
+                            <img src="images/portfolio/single-portfolio/2.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-md-4 col-lg-4">
-                        <div class="checkout-right-sidebar">
-                            <div class="our-important-note">
-                                <h2 class="section-title-3">Note :</h2>
-                                <p class="note-desc">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed do eiusmod tempor incididunt ut laborekf et dolore magna aliqua.</p>
-                                <ul class="important-note">
-                                    <li><a href="#"><i class="zmdi zmdi-caret-right-circle"></i>Lorem ipsum dolor sit amet, consectetur nipabali</a></li>
-                                    <li><a href="#"><i class="zmdi zmdi-caret-right-circle"></i>Lorem ipsum dolor sit amet</a></li>
-                                    <li><a href="#"><i class="zmdi zmdi-caret-right-circle"></i>Lorem ipsum dolor sit amet, consectetur nipabali</a></li>
-                                    <li><a href="#"><i class="zmdi zmdi-caret-right-circle"></i>Lorem ipsum dolor sit amet, consectetur nipabali</a></li>
-                                    <li><a href="#"><i class="zmdi zmdi-caret-right-circle"></i>Lorem ipsum dolor sit amet</a></li>
+                    <div class="col-md-5">
+                        <div class="portfolio-description mrg-sm">
+                            <h2>portfolio name</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliqu erat volutpat. Ut wisi enim ad minim veniam.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+                            <div class="portfolio-info">
+                                <ul>
+                                    <li><span>Created by:</span>Tayeb rayed</li>
+                                    <li><span>Completed on:</span>20 Sep 2017</li>
+                                    <li><span>Categories:</span>Wordpress</li>
+                                    <li><span>Client:</span>Tayeb rayed</li>
+                                    <li><span>Skills:</span>HTML5 / WP / CSS3</li>
+                                    <li><span>Created by:</span>Hamim Ahmed</li>
+                                    <li><span>portfolio link:</span><a href="#">https://user/Theme365/portfolio</a></li>
                                 </ul>
                             </div>
-                            <div class="puick-contact-area mt--60">
-                                <h2 class="section-title-3">Quick Contract</h2>
-                                <a href="phone:+8801722889963">+012 345 678 102 </a>
+                            <div class="portfolio-social">
+                                <ul>
+                                    <li>Share: </li>
+                                    <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-instagram"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-google"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-dribbble"></i></a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- End Checkout Area -->
+        </div>
+        <div class="portfolio-related-post pb--100 bg__white">
+            <div class="container">
+                <div class="section__title text-center mb--50">
+                    <h2 class="title__line">Related Projects</h2>
+                </div>
+                <div class="tab-content portfolio-carousel-style jump">
+                    <div class="related-portfolio">
+                        <div class="row">
+                            <div class="portfolio-slider-active owl-carousel">
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="single-portfolio mb--30">
+                                        <div class="portfolio-img-title">
+                                            <a href="single-portfolio.php">
+                                                <img src="images/portfolio/equal/1.jpg" alt="" />
+                                            </a>
+                                            <div class="portfolio-title hover-title">
+                                                <h3><a href="single-portfolio.php">TITLE GOES HERE</a></h3>
+                                                <span>Design</span>
+                                            </div>
+                                        </div>					
+                                    </div>				
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="single-portfolio mb--30">
+                                        <div class="portfolio-img-title">
+                                            <a href="single-portfolio.php">
+                                                <img src="images/portfolio/equal/2.jpg" alt="" />
+                                            </a>
+                                            <div class="portfolio-title hover-title">
+                                                <h3><a href="single-portfolio.php">TITLE GOES HERE</a></h3>
+                                                <span>Design</span>
+                                            </div>
+                                        </div>					
+                                    </div>					
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="single-portfolio mb--30">
+                                        <div class="portfolio-img-title">
+                                            <a href="single-portfolio.php">
+                                                <img src="images/portfolio/equal/3.jpg" alt="" />
+                                            </a>
+                                            <div class="portfolio-title hover-title">
+                                                <h3><a href="single-portfolio.php">TITLE GOES HERE</a></h3>
+                                                <span>Design</span>
+                                            </div>
+                                        </div>					
+                                    </div>					
+                                </div> 
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="single-portfolio mb--30">
+                                        <div class="portfolio-img-title">
+                                            <a href="single-portfolio.php">
+                                                <img src="images/portfolio/equal/4.jpg" alt="" />
+                                            </a>
+                                            <div class="portfolio-title hover-title">
+                                                <h3><a href="single-portfolio.php">TITLE GOES HERE</a></h3>
+                                                <span>Design</span>
+                                            </div>
+                                        </div>					
+                                    </div>				
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="single-portfolio mb--30">
+                                        <div class="portfolio-img-title">
+                                            <a href="single-portfolio.php">
+                                                <img src="images/portfolio/equal/5.jpg" alt="" />
+                                            </a>
+                                            <div class="portfolio-title hover-title">
+                                                <h3><a href="single-portfolio.php">TITLE GOES HERE</a></h3>
+                                                <span>Design</span>
+                                            </div>
+                                        </div>					
+                                    </div>				
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Start Footer Area -->
         <footer class="htc__foooter__area gray-bg">
             <div class="container">
@@ -440,7 +454,7 @@
                         <div class="col-md-3 col-lg-3 col-sm-6">
                             <div class="ft__widget">
                                 <div class="ft__logo">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <img src="images/logo/logo.png" alt="footer logo">
                                     </a>
                                 </div>
@@ -501,7 +515,7 @@
                                 <h2 class="ft__title">Infomation</h2>
                                 <ul class="footer-categories">
                                     <li><a href="about.php">About Us</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="contact.php">Contact Us</a></li>
                                     <li><a href="#">Terms & Conditions</a></li>
                                     <li><a href="#">Returns & Exchanges</a></li>
                                     <li><a href="#">Shipping & Delivery</a></li>
@@ -547,9 +561,9 @@
                                     All Right Reserved.</p>
                                 </div>
                                 <ul class="footer__menu">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="shop.html">Product</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="index.php">Home</a></li>
+                                    <li><a href="shop.php">Product</a></li>
+                                    <li><a href="contact.php">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -561,6 +575,90 @@
         <!-- End Footer Area -->
     </div>
     <!-- Body main wrapper end -->
+    <!-- QUICKVIEW PRODUCT -->
+    <div id="quickview-wrapper">
+        <!-- Modal -->
+        <div class="modal fade" id="productModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal__container" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-product">
+                            <!-- Start product images -->
+                            <div class="product-images">
+                                <div class="main-image images">
+                                    <img alt="big images" src="images/product/big-img/1.jpg">
+                                </div>
+                            </div>
+                            <!-- end product images -->
+                            <div class="product-info">
+                                <h1>Simple Fabric Bags</h1>
+                                <div class="rating__and__review">
+                                    <ul class="rating">
+                                        <li><span class="ti-star"></span></li>
+                                        <li><span class="ti-star"></span></li>
+                                        <li><span class="ti-star"></span></li>
+                                        <li><span class="ti-star"></span></li>
+                                        <li><span class="ti-star"></span></li>
+                                    </ul>
+                                    <div class="review">
+                                        <a href="#">4 customer reviews</a>
+                                    </div>
+                                </div>
+                                <div class="price-box-3">
+                                    <div class="s-price-box">
+                                        <span class="new-price">$17.20</span>
+                                        <span class="old-price">$45.00</span>
+                                    </div>
+                                </div>
+                                <div class="quick-desc">
+                                    Designed for simplicity and made from high quality materials. Its sleek geometry and material combinations creates a modern look.
+                                </div>
+                                <div class="select__color">
+                                    <h2>Select color</h2>
+                                    <ul class="color__list">
+                                        <li class="red"><a title="Red" href="#">Red</a></li>
+                                        <li class="gold"><a title="Gold" href="#">Gold</a></li>
+                                        <li class="orange"><a title="Orange" href="#">Orange</a></li>
+                                        <li class="orange"><a title="Orange" href="#">Orange</a></li>
+                                    </ul>
+                                </div>
+                                <div class="select__size">
+                                    <h2>Select size</h2>
+                                    <ul class="color__list">
+                                        <li class="l__size"><a title="L" href="#">L</a></li>
+                                        <li class="m__size"><a title="M" href="#">M</a></li>
+                                        <li class="s__size"><a title="S" href="#">S</a></li>
+                                        <li class="xl__size"><a title="XL" href="#">XL</a></li>
+                                        <li class="xxl__size"><a title="XXL" href="#">XXL</a></li>
+                                    </ul>
+                                </div>
+                                <div class="social-sharing">
+                                    <div class="widget widget_socialsharing_widget">
+                                        <h3 class="widget-title-modal">Share this product</h3>
+                                        <ul class="social-icons">
+                                            <li><a target="_blank" title="rss" href="#" class="rss social-icon"><i class="zmdi zmdi-rss"></i></a></li>
+                                            <li><a target="_blank" title="Linkedin" href="#" class="linkedin social-icon"><i class="zmdi zmdi-linkedin"></i></a></li>
+                                            <li><a target="_blank" title="Pinterest" href="#" class="pinterest social-icon"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                            <li><a target="_blank" title="Tumblr" href="#" class="tumblr social-icon"><i class="zmdi zmdi-tumblr"></i></a></li>
+                                            <li><a target="_blank" title="Pinterest" href="#" class="pinterest social-icon"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="addtocart-btn">
+                                    <a href="#">Add to cart</a>
+                                </div>
+                            </div><!-- .product-info -->
+                        </div><!-- .modal-product -->
+                    </div><!-- .modal-body -->
+                </div><!-- .modal-content -->
+            </div><!-- .modal-dialog -->
+        </div>
+        <!-- END Modal -->
+    </div>
+    <!-- END QUICKVIEW PRODUCT -->
     <!-- Placed js at the end of the document so the pages load faster -->
 
     <!-- jquery latest version -->

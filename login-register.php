@@ -15,9 +15,6 @@
     <!-- All css files are included here. -->
     <!-- Bootstrap fremwork main css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Owl Carousel main css -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <!-- This core.css file contents all plugings css file. -->
     <link rel="stylesheet" href="css/core.css">
     <!-- Theme shortcodes/elements style -->
@@ -49,7 +46,7 @@
                     <div class="row">
                         <div class="col-md-2 col-lg-2 col-sm-3 col-xs-3">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="images/logo/logo.png" alt="logo">
                                 </a>
                             </div>
@@ -58,32 +55,32 @@
                         <div class="col-md-8 col-lg-8 col-sm-6 col-xs-6">
                             <nav class="mainmenu__nav hidden-xs hidden-sm">
                                 <ul class="main__menu">
-                                    <li class="drop"><a href="index.html">Home</a></li>
-                                    <li class="drop"><a href="portfolio-card-box-2.html">portfolio</a>
+                                    <li class="drop"><a href="index.php">Home</a></li>
+                                    <li class="drop"><a href="portfolio-card-box-2.php">portfolio</a>
                                         <ul class="dropdown">
-                                            <li><a href="portfolio-card-box-2.html">portfolio</a></li>
-                                            <li><a href="single-portfolio.html">Single portfolio</a></li>
+                                            <li><a href="portfolio-card-box-2.php">portfolio</a></li>
+                                            <li><a href="single-portfolio.php">Single portfolio</a></li>
                                         </ul>
                                     </li>
                                     <li class="drop"><a href="blog.php">Blog</a>
                                         <ul class="dropdown">
                                             <li><a href="blog.php">blog 3 column</a></li>
-                                            <li><a href="blog-details.html">Blog details</a></li>
+                                            <li><a href="blog-details.php">Blog details</a></li>
                                         </ul>
                                     </li>
-                                    <li class="drop"><a href="shop.html">Shop</a>
+                                    <li class="drop"><a href="shop.php">Shop</a>
                                         <ul class="dropdown mega_dropdown">
                                             <!-- Start Single Mega MEnu -->
-                                            <li><a class="mega__title" href="shop.html">shop layout</a>
+                                            <li><a class="mega__title" href="shop.php">shop layout</a>
                                                 <ul class="mega__item">
-                                                    <li><a href="shop.html">default shop</a></li>
+                                                    <li><a href="shop.php">default shop</a></li>
                                                 </ul>
                                             </li>
                                             <!-- End Single Mega MEnu -->
                                             <!-- Start Single Mega MEnu -->
-                                            <li><a class="mega__title" href="shop.html">product details layout</a>
+                                            <li><a class="mega__title" href="shop.php">product details layout</a>
                                                 <ul class="mega__item">
-                                                    <li><a href="product-details.html">tab style 1</a></li></li>
+                                                    <li><a href="product-details.php">tab style 1</a></li></li>
                                                 </ul>
                                             </li>
                                             <!-- End Single Mega MEnu -->
@@ -92,7 +89,7 @@
                                                 <ul class="mega__item">
                                                     <li>
                                                         <div class="mega-item-img">
-                                                            <a href="shop.html">
+                                                            <a href="shop.php">
                                                                 <img src="images/feature-img/3.png" alt="">
                                                             </a>
                                                         </div>
@@ -107,53 +104,53 @@
                                             <li><a href="about.php">about</a></li>
                                             <li><a href="#">testimonials <span><i class="zmdi zmdi-chevron-right"></i></span></a>
                                                 <ul class="lavel-dropdown">
-                                                    <li><a href="customer-review.html">customer review</a></li>
+                                                    <li><a href="customer-review.php">customer review</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="shop.html">shop</a></li>
+                                            <li><a href="shop.php">shop</a></li>
                                             <li><a href="shop-sidebar.html">shop sidebar</a></li>
-                                            <li><a href="product-details.html">product details</a></li>
-                                            <li><a href="cart.html">cart</a></li>
-                                            <li><a href="wishlist.html">wishlist</a></li>
-                                            <li><a href="checkout.html">checkout</a></li>
-                                            <li><a href="team.html">team</a></li>
-                                            <li><a href="login-register.html">login & register</a></li>
+                                            <li><a href="product-details.php">product details</a></li>
+                                            <li><a href="cart.php">cart</a></li>
+                                            <li><a href="wishlist.php">wishlist</a></li>
+                                            <li><a href="checkout.php">checkout</a></li>
+                                            <li><a href="team.php">team</a></li>
+                                            <li><a href="login-register.php">login & register</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">contact</a></li>
+                                    <li><a href="contact.php">contact</a></li>
                                 </ul>
                             </nav>
                             <div class="mobile-menu clearfix visible-xs visible-sm">
                                 <nav id="mobile_dropdown">
                                     <ul>
-                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="index.php">Home</a></li>
                                         <li><a href="#">portfolio</a>
                                             <ul>
-                                                <li><a href="portfolio-card-box-2.html">portfolio</a></li>
-                                                <li><a href="single-portfolio.html">Single portfolio</a></li>
+                                                <li><a href="portfolio-card-box-2.php">portfolio</a></li>
+                                                <li><a href="single-portfolio.php">Single portfolio</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="blog.php">blog</a>
                                             <ul>
                                                 <li><a href="blog.php">blog 3 column</a></li>
-                                                <li><a href="blog-details.html">Blog details</a></li>
+                                                <li><a href="blog-details.php">Blog details</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">pages</a>
                                             <ul>
                                                 <li><a href="about.php">about</a></li>
-                                                <li><a href="customer-review.html">customer review</a></li>
-                                                <li><a href="shop.html">shop</a></li>
+                                                <li><a href="customer-review.php">customer review</a></li>
+                                                <li><a href="shop.php">shop</a></li>
                                                 <li><a href="shop-sidebar.html">shop sidebar</a></li>
-                                                <li><a href="product-details.html">product details</a></li>
-                                                <li><a href="cart.html">cart</a></li>
-                                                <li><a href="wishlist.html">wishlist</a></li>
-                                                <li><a href="checkout.html">checkout</a></li>
-                                                <li><a href="team.html">team</a></li>
-                                                <li><a href="login-register.html">login & register</a></li>
+                                                <li><a href="product-details.php">product details</a></li>
+                                                <li><a href="cart.php">cart</a></li>
+                                                <li><a href="wishlist.php">wishlist</a></li>
+                                                <li><a href="checkout.php">checkout</a></li>
+                                                <li><a href="team.php">team</a></li>
+                                                <li><a href="login-register.php">login & register</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">contact</a></li>
+                                        <li><a href="contact.php">contact</a></li>
                                     </ul>
                                 </nav>
                             </div>                         
@@ -162,7 +159,7 @@
                         <div class="col-md-2 col-sm-4 col-xs-3">  
                             <ul class="menu-extra">
                                 <li class="search search__open hidden-xs"><span class="ti-search"></span></li>
-                                <li><a href="login-register.html"><span class="ti-user"></span></a></li>
+                                <li><a href="login-register.php"><span class="ti-user"></span></a></li>
                                 <li class="cart__menu"><span class="ti-shopping-cart"></span></li>
                                 <li class="toggle__menu hidden-xs hidden-sm"><span class="ti-menu"></span></li>
                             </ul>
@@ -174,6 +171,7 @@
             <!-- End Mainmenu Area -->
         </header>
         <!-- End Header Style -->
+        
         <div class="body__overlay"></div>
         <!-- Start Offset Wrapper -->
         <div class="offset__wrapper">
@@ -204,7 +202,7 @@
                     </div>
                     <div class="off__contact">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="images/logo/logo.png" alt="logo">
                             </a>
                         </div>
@@ -269,7 +267,7 @@
                                 </a>
                             </div>
                             <div class="shp__pro__details">
-                                <h2><a href="product-details.html">BO&Play Wireless Speaker</a></h2>
+                                <h2><a href="product-details.php">BO&Play Wireless Speaker</a></h2>
                                 <span class="quantity">QTY: 1</span>
                                 <span class="shp__price">$105.00</span>
                             </div>
@@ -284,7 +282,7 @@
                                 </a>
                             </div>
                             <div class="shp__pro__details">
-                                <h2><a href="product-details.html">Brone Candle</a></h2>
+                                <h2><a href="product-details.php">Brone Candle</a></h2>
                                 <span class="quantity">QTY: 1</span>
                                 <span class="shp__price">$25.00</span>
                             </div>
@@ -298,117 +296,89 @@
                         <li class="total__price">$130.00</li>
                     </ul>
                     <ul class="shopping__btn">
-                        <li><a href="cart.html">View Cart</a></li>
-                        <li class="shp__checkout"><a href="checkout.html">Checkout</a></li>
+                        <li><a href="cart.php">View Cart</a></li>
+                        <li class="shp__checkout"><a href="checkout.php">Checkout</a></li>
                     </ul>
                 </div>
             </div>
             <!-- End Cart Panel -->
         </div>
         <!-- End Offset Wrapper -->
-        <!-- Start Bradcaump area -->
-        <div class="ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(images/bg/2.jpg) no-repeat scroll center center / cover ;">
-            <div class="ht__bradcaump__wrap">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="bradcaump__inner text-center">
-                                <h2 class="bradcaump-title">Contact US</h2>
-                                <nav class="bradcaump-inner">
-                                  <a class="breadcrumb-item" href="index.html">Home</a>
-                                  <span class="brd-separetor">/</span>
-                                  <span class="breadcrumb-item active">Contact US</span>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Bradcaump area -->
-        <!-- Start Contact Area -->
-        <section class="htc__contact__area ptb--120 bg__white">
+        <!-- Start Login Register Area -->
+        <div class="htc__login__register bg__white ptb--130" style="background: rgba(0, 0, 0, 0) url(images/bg/5.jpg) no-repeat scroll center center / cover ;">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                        <div class="htc__contact__container">
-                            <div class="htc__contact__address">
-                                <h2 class="contact__title">contact info</h2>
-                                <div class="contact__address__inner">
-                                    <!-- Start Single Adress -->
-                                    <div class="single__contact__address">
-                                        <div class="contact__icon">
-                                            <span class="ti-location-pin"></span>
-                                        </div>
-                                        <div class="contact__details">
-                                            <p>Location : <br> 77, seventh avenue, Brat road USA.</p>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Adress -->
-                                </div>
-                                <div class="contact__address__inner">
-                                    <!-- Start Single Adress -->
-                                    <div class="single__contact__address">
-                                        <div class="contact__icon">
-                                            <span class="ti-mobile"></span>
-                                        </div>
-                                        <div class="contact__details">
-                                            <p> Phone : <br><a href="#">+012 345 678 102 </a></p>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Adress -->
-                                    <!-- Start Single Adress -->
-                                    <div class="single__contact__address">
-                                        <div class="contact__icon">
-                                            <span class="ti-email"></span>
-                                        </div>
-                                        <div class="contact__details">
-                                            <p> Mail :<br><a href="#">info@example.com</a></p>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Adress -->
-                                </div>
-                            </div>
-                            <div class="contact-form-wrap">
-                            <div class="contact-title">
-                                <h2 class="contact__title">Get In Touch</h2>
-                            </div>
-                            <form id="contact-form" action="mail.php" method="post">
-                                <div class="single-contact-form">
-                                    <div class="contact-box name">
-                                        <input type="text" name="name" placeholder="Your Nme*">
-                                        <input type="email" name="email" placeholder="Mail*">
-                                    </div>
-                                </div>
-                                <div class="single-contact-form">
-                                    <div class="contact-box subject">
-                                        <input type="text" name="subject" placeholder="Subject*">
-                                    </div>
-                                </div>
-                                <div class="single-contact-form">
-                                    <div class="contact-box message">
-                                        <textarea name="message"  placeholder="Massage*"></textarea>
-                                    </div>
-                                </div>
-                                <div class="contact-btn">
-                                    <button type="submit" class="fv-btn">SEND</button>
-                                </div>
-                            </form>
-                        </div> 
-                        <div class="form-output">
-                            <p class="form-messege"></p>
-                        </div>
-                        </div>
+                    <div class="col-md-6 col-md-offset-3">
+                        <ul class="login__register__menu" role="tablist">
+                            <li role="presentation" class="login active"><a href="#login" role="tab" data-toggle="tab">Login</a></li>
+                            <li role="presentation" class="register"><a href="#register" role="tab" data-toggle="tab">Register</a></li>
+                        </ul>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 smt-30 xmt-30">
-                        <div class="map-contacts">
-                            <div id="googleMap"></div>
+                </div>
+                <!-- Start Login Register Content -->
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="htc__login__register__wrap">
+                            <!-- Start Single Content -->
+                            <div id="login" role="tabpanel" class="single__tabs__panel tab-pane fade in active">
+                                <form class="login" method="post">
+                                    <input type="text" placeholder="User Name*">
+                                    <input type="password" placeholder="Password*">
+                                </form>
+                                <div class="tabs__checkbox">
+                                    <input type="checkbox">
+                                    <span> Remember me</span>
+                                    <span class="forget"><a href="#">Forget Pasword?</a></span>
+                                </div>
+                                <div class="htc__login__btn mt--30">
+                                    <a href="#">Login</a>
+                                </div>
+                                <div class="htc__social__connect">
+                                    <h2>Or Login With</h2>
+                                    <ul class="htc__soaial__list">
+                                        <li><a class="bg--twitter" href="#"><i class="zmdi zmdi-twitter"></i></a></li>
+
+                                        <li><a class="bg--instagram" href="#"><i class="zmdi zmdi-instagram"></i></a></li>
+
+                                        <li><a class="bg--facebook" href="#"><i class="zmdi zmdi-facebook"></i></a></li>
+
+                                        <li><a class="bg--googleplus" href="#"><i class="zmdi zmdi-google-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End Single Content -->
+                            <!-- Start Single Content -->
+                            <div id="register" role="tabpanel" class="single__tabs__panel tab-pane fade">
+                                <form class="login" method="post">
+                                    <input type="text" placeholder="Name*">
+                                    <input type="email" placeholder="Email*">
+                                    <input type="password" placeholder="Password*">
+                                </form>
+                                <div class="tabs__checkbox">
+                                    <input type="checkbox">
+                                    <span> Remember me</span>
+                                </div>
+                                <div class="htc__login__btn">
+                                    <a href="#">register</a>
+                                </div>
+                                <div class="htc__social__connect">
+                                    <h2>Or Login With</h2>
+                                    <ul class="htc__soaial__list">
+                                        <li><a class="bg--twitter" href="#"><i class="zmdi zmdi-twitter"></i></a></li>
+                                        <li><a class="bg--instagram" href="#"><i class="zmdi zmdi-instagram"></i></a></li>
+                                        <li><a class="bg--facebook" href="#"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a class="bg--googleplus" href="#"><i class="zmdi zmdi-google-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End Single Content -->
                         </div>
                     </div>
                 </div>
+                <!-- End Login Register Content -->
             </div>
-        </section>
-        <!-- End Contact Area -->
+        </div>
+        <!-- End Login Register Area -->
         <!-- Start Footer Area -->
         <footer class="htc__foooter__area gray-bg">
             <div class="container">
@@ -418,7 +388,7 @@
                         <div class="col-md-3 col-lg-3 col-sm-6">
                             <div class="ft__widget">
                                 <div class="ft__logo">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <img src="images/logo/logo.png" alt="footer logo">
                                     </a>
                                 </div>
@@ -479,7 +449,7 @@
                                 <h2 class="ft__title">Infomation</h2>
                                 <ul class="footer-categories">
                                     <li><a href="about.php">About Us</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="contact.php">Contact Us</a></li>
                                     <li><a href="#">Terms & Conditions</a></li>
                                     <li><a href="#">Returns & Exchanges</a></li>
                                     <li><a href="#">Shipping & Delivery</a></li>
@@ -525,9 +495,9 @@
                                     All Right Reserved.</p>
                                 </div>
                                 <ul class="footer__menu">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="shop.html">Product</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="index.php">Home</a></li>
+                                    <li><a href="shop.php">Product</a></li>
+                                    <li><a href="contact.php">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -539,90 +509,6 @@
         <!-- End Footer Area -->
     </div>
     <!-- Body main wrapper end -->
-    <!-- QUICKVIEW PRODUCT -->
-    <div id="quickview-wrapper">
-        <!-- Modal -->
-        <div class="modal fade" id="productModal" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal__container" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="modal-product">
-                            <!-- Start product images -->
-                            <div class="product-images">
-                                <div class="main-image images">
-                                    <img alt="big images" src="images/product/big-img/1.jpg">
-                                </div>
-                            </div>
-                            <!-- end product images -->
-                            <div class="product-info">
-                                <h1>Simple Fabric Bags</h1>
-                                <div class="rating__and__review">
-                                    <ul class="rating">
-                                        <li><span class="ti-star"></span></li>
-                                        <li><span class="ti-star"></span></li>
-                                        <li><span class="ti-star"></span></li>
-                                        <li><span class="ti-star"></span></li>
-                                        <li><span class="ti-star"></span></li>
-                                    </ul>
-                                    <div class="review">
-                                        <a href="#">4 customer reviews</a>
-                                    </div>
-                                </div>
-                                <div class="price-box-3">
-                                    <div class="s-price-box">
-                                        <span class="new-price">$17.20</span>
-                                        <span class="old-price">$45.00</span>
-                                    </div>
-                                </div>
-                                <div class="quick-desc">
-                                    Designed for simplicity and made from high quality materials. Its sleek geometry and material combinations creates a modern look.
-                                </div>
-                                <div class="select__color">
-                                    <h2>Select color</h2>
-                                    <ul class="color__list">
-                                        <li class="red"><a title="Red" href="#">Red</a></li>
-                                        <li class="gold"><a title="Gold" href="#">Gold</a></li>
-                                        <li class="orange"><a title="Orange" href="#">Orange</a></li>
-                                        <li class="orange"><a title="Orange" href="#">Orange</a></li>
-                                    </ul>
-                                </div>
-                                <div class="select__size">
-                                    <h2>Select size</h2>
-                                    <ul class="color__list">
-                                        <li class="l__size"><a title="L" href="#">L</a></li>
-                                        <li class="m__size"><a title="M" href="#">M</a></li>
-                                        <li class="s__size"><a title="S" href="#">S</a></li>
-                                        <li class="xl__size"><a title="XL" href="#">XL</a></li>
-                                        <li class="xxl__size"><a title="XXL" href="#">XXL</a></li>
-                                    </ul>
-                                </div>
-                                <div class="social-sharing">
-                                    <div class="widget widget_socialsharing_widget">
-                                        <h3 class="widget-title-modal">Share this product</h3>
-                                        <ul class="social-icons">
-                                            <li><a target="_blank" title="rss" href="#" class="rss social-icon"><i class="zmdi zmdi-rss"></i></a></li>
-                                            <li><a target="_blank" title="Linkedin" href="#" class="linkedin social-icon"><i class="zmdi zmdi-linkedin"></i></a></li>
-                                            <li><a target="_blank" title="Pinterest" href="#" class="pinterest social-icon"><i class="zmdi zmdi-pinterest"></i></a></li>
-                                            <li><a target="_blank" title="Tumblr" href="#" class="tumblr social-icon"><i class="zmdi zmdi-tumblr"></i></a></li>
-                                            <li><a target="_blank" title="Pinterest" href="#" class="pinterest social-icon"><i class="zmdi zmdi-pinterest"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="addtocart-btn">
-                                    <a href="#">Add to cart</a>
-                                </div>
-                            </div><!-- .product-info -->
-                        </div><!-- .modal-product -->
-                    </div><!-- .modal-body -->
-                </div><!-- .modal-content -->
-            </div><!-- .modal-dialog -->
-        </div>
-        <!-- END Modal -->
-    </div>
-    <!-- END QUICKVIEW PRODUCT -->
     <!-- Placed js at the end of the document so the pages load faster -->
 
     <!-- jquery latest version -->
@@ -633,278 +519,6 @@
     <script src="js/plugins.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-
-    <!-- Google Map js -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmGmeot5jcjdaJTvfCmQPfzeoG_pABeWo"></script>
-    <script>
-        // When the window has finished loading create our google map below
-        google.maps.event.addDomListener(window, 'load', init);
-
-        function init() {
-            // Basic options for a simple Google Map
-            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-            var mapOptions = {
-                // How zoomed in you want the map to start at (always required)
-                zoom: 12,
-
-                scrollwheel: false,
-
-                // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(23.7286, 90.3854), // New York
-
-                // How you would like to style the map. 
-                // This is where you would paste any style found on Snazzy Maps.
-                 styles: [
-  
-
-    {
-        "featureType": "administrative",
-        "elementType": "all",
-        "stylers": [
-            {
-                "hue": "#ff0000"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#888888"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative",
-        "elementType": "geometry.fill",
-        "stylers": [
-            {
-                "hue": "#ff0000"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative",
-        "elementType": "labels.text",
-        "stylers": [
-            {
-                "color": "#6e6e6e"
-            },
-            {
-                "visibility": "simplified"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative.country",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#6f6b6b"
-            }
-        ]
-    },
-    {
-        "featureType": "landscape",
-        "elementType": "labels.text",
-        "stylers": [
-            {
-                "color": "#c5c5c5"
-            }
-        ]
-    },
-    {
-        "featureType": "landscape.natural",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#cfcfcf"
-            }
-        ]
-    },
-    {
-        "featureType": "landscape.natural.landcover",
-        "elementType": "all",
-        "stylers": [
-            {
-                "hue": "#ff0000"
-            }
-        ]
-    },
-    {
-        "featureType": "landscape.natural.landcover",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "hue": "#ff0000"
-            }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "labels.text",
-        "stylers": [
-            {
-                "visibility": "off"
-            },
-            {
-                "color": "#909090"
-            }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "labels.icon",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "poi.medical",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#e5e5e5"
-            }
-        ]
-    },
-    {
-        "featureType": "poi.park",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#e5e5e5"
-            }
-        ]
-    },
-    {
-        "featureType": "poi.place_of_worship",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#ff0000"
-            }
-        ]
-    },
-    {
-        "featureType": "poi.sports_complex",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#f7f7f7"
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "geometry.fill",
-        "stylers": [
-            {
-                "color": "#ffffff"
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "geometry.stroke",
-        "stylers": [
-            {
-                "gamma": 7.18
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "labels.icon",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "road.local",
-        "elementType": "labels.text",
-        "stylers": [
-            {
-                "visibility": "simplified"
-            }
-        ]
-    },
-    {
-        "featureType": "transit.line",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "gamma": 0.48
-            }
-        ]
-    },
-    {
-        "featureType": "transit.station",
-        "elementType": "labels.icon",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "water",
-        "elementType": "all",
-        "stylers": [
-            {
-                "color": "#bcbcbc"
-            },
-            {
-                "visibility": "on"
-            }
-        ]
-    },
-    {
-        "featureType": "water",
-        "elementType": "labels.text.fill",
-        "stylers": [
-            {
-                "color": "#ffffff"
-            }
-        ]
-    }
-]
-            };
-
-            // Get the HTML DOM element that will contain your map 
-            // We are using a div with id="map" seen below in the <body>
-            var mapElement = document.getElementById('googleMap');
-
-            // Create the Google Map using our element and options defined above
-            var map = new google.maps.Map(mapElement, mapOptions);
-
-            // Let's also add a marker while we're at it
-            var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(23.7286, 90.3854),
-                map: map,
-                title: 'Tasfiu!',
-                icon: 'images/icons/map.png',
-                animation:google.maps.Animation.BOUNCE
-
-            });
-        }
-    </script>
-
-
     <!-- Waypoints.min.js. -->
     <script src="js/waypoints.min.js"></script>
     <!-- Main js file that contents all jQuery plugins activation. -->

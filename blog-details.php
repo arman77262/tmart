@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="zxx">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -49,7 +49,7 @@
                     <div class="row">
                         <div class="col-md-2 col-lg-2 col-sm-3 col-xs-3">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="images/logo/logo.png" alt="logo">
                                 </a>
                             </div>
@@ -58,32 +58,32 @@
                         <div class="col-md-8 col-lg-8 col-sm-6 col-xs-6">
                             <nav class="mainmenu__nav hidden-xs hidden-sm">
                                 <ul class="main__menu">
-                                    <li class="drop"><a href="index.html">Home</a></li>
-                                    <li class="drop"><a href="portfolio-card-box-2.html">portfolio</a>
+                                    <li class="drop"><a href="index.php">Home</a></li>
+                                    <li class="drop"><a href="portfolio-card-box-2.php">portfolio</a>
                                         <ul class="dropdown">
-                                            <li><a href="portfolio-card-box-2.html">portfolio</a></li>
-                                            <li><a href="single-portfolio.html">Single portfolio</a></li>
+                                            <li><a href="portfolio-card-box-2.php">portfolio</a></li>
+                                            <li><a href="single-portfolio.php">Single portfolio</a></li>
                                         </ul>
                                     </li>
                                     <li class="drop"><a href="blog.php">Blog</a>
                                         <ul class="dropdown">
                                             <li><a href="blog.php">blog 3 column</a></li>
-                                            <li><a href="blog-details.html">Blog details</a></li>
+                                            <li><a href="blog-details.php">Blog details</a></li>
                                         </ul>
                                     </li>
-                                    <li class="drop"><a href="shop.html">Shop</a>
+                                    <li class="drop"><a href="shop.php">Shop</a>
                                         <ul class="dropdown mega_dropdown">
                                             <!-- Start Single Mega MEnu -->
-                                            <li><a class="mega__title" href="shop.html">shop layout</a>
+                                            <li><a class="mega__title" href="shop.php">shop layout</a>
                                                 <ul class="mega__item">
-                                                    <li><a href="shop.html">default shop</a></li>
+                                                    <li><a href="shop.php">default shop</a></li>
                                                 </ul>
                                             </li>
                                             <!-- End Single Mega MEnu -->
                                             <!-- Start Single Mega MEnu -->
-                                            <li><a class="mega__title" href="shop.html">product details layout</a>
+                                            <li><a class="mega__title" href="shop.php">product details layout</a>
                                                 <ul class="mega__item">
-                                                    <li><a href="product-details.html">tab style 1</a></li></li>
+                                                    <li><a href="product-details.php">tab style 1</a></li></li>
                                                 </ul>
                                             </li>
                                             <!-- End Single Mega MEnu -->
@@ -92,7 +92,7 @@
                                                 <ul class="mega__item">
                                                     <li>
                                                         <div class="mega-item-img">
-                                                            <a href="shop.html">
+                                                            <a href="shop.php">
                                                                 <img src="images/feature-img/3.png" alt="">
                                                             </a>
                                                         </div>
@@ -107,53 +107,53 @@
                                             <li><a href="about.php">about</a></li>
                                             <li><a href="#">testimonials <span><i class="zmdi zmdi-chevron-right"></i></span></a>
                                                 <ul class="lavel-dropdown">
-                                                    <li><a href="customer-review.html">customer review</a></li>
+                                                    <li><a href="customer-review.php">customer review</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="shop.html">shop</a></li>
+                                            <li><a href="shop.php">shop</a></li>
                                             <li><a href="shop-sidebar.html">shop sidebar</a></li>
-                                            <li><a href="product-details.html">product details</a></li>
-                                            <li><a href="cart.html">cart</a></li>
-                                            <li><a href="wishlist.html">wishlist</a></li>
-                                            <li><a href="checkout.html">checkout</a></li>
-                                            <li><a href="team.html">team</a></li>
-                                            <li><a href="login-register.html">login & register</a></li>
+                                            <li><a href="product-details.php">product details</a></li>
+                                            <li><a href="cart.php">cart</a></li>
+                                            <li><a href="wishlist.php">wishlist</a></li>
+                                            <li><a href="checkout.php">checkout</a></li>
+                                            <li><a href="team.php">team</a></li>
+                                            <li><a href="login-register.php">login & register</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">contact</a></li>
+                                    <li><a href="contact.php">contact</a></li>
                                 </ul>
                             </nav>
                             <div class="mobile-menu clearfix visible-xs visible-sm">
                                 <nav id="mobile_dropdown">
                                     <ul>
-                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="index.php">Home</a></li>
                                         <li><a href="#">portfolio</a>
                                             <ul>
-                                                <li><a href="portfolio-card-box-2.html">portfolio</a></li>
-                                                <li><a href="single-portfolio.html">Single portfolio</a></li>
+                                                <li><a href="portfolio-card-box-2.php">portfolio</a></li>
+                                                <li><a href="single-portfolio.php">Single portfolio</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="blog.php">blog</a>
                                             <ul>
                                                 <li><a href="blog.php">blog 3 column</a></li>
-                                                <li><a href="blog-details.html">Blog details</a></li>
+                                                <li><a href="blog-details.php">Blog details</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">pages</a>
                                             <ul>
                                                 <li><a href="about.php">about</a></li>
-                                                <li><a href="customer-review.html">customer review</a></li>
-                                                <li><a href="shop.html">shop</a></li>
+                                                <li><a href="customer-review.php">customer review</a></li>
+                                                <li><a href="shop.php">shop</a></li>
                                                 <li><a href="shop-sidebar.html">shop sidebar</a></li>
-                                                <li><a href="product-details.html">product details</a></li>
-                                                <li><a href="cart.html">cart</a></li>
-                                                <li><a href="wishlist.html">wishlist</a></li>
-                                                <li><a href="checkout.html">checkout</a></li>
-                                                <li><a href="team.html">team</a></li>
-                                                <li><a href="login-register.html">login & register</a></li>
+                                                <li><a href="product-details.php">product details</a></li>
+                                                <li><a href="cart.php">cart</a></li>
+                                                <li><a href="wishlist.php">wishlist</a></li>
+                                                <li><a href="checkout.php">checkout</a></li>
+                                                <li><a href="team.php">team</a></li>
+                                                <li><a href="login-register.php">login & register</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">contact</a></li>
+                                        <li><a href="contact.php">contact</a></li>
                                     </ul>
                                 </nav>
                             </div>                         
@@ -162,7 +162,7 @@
                         <div class="col-md-2 col-sm-4 col-xs-3">  
                             <ul class="menu-extra">
                                 <li class="search search__open hidden-xs"><span class="ti-search"></span></li>
-                                <li><a href="login-register.html"><span class="ti-user"></span></a></li>
+                                <li><a href="login-register.php"><span class="ti-user"></span></a></li>
                                 <li class="cart__menu"><span class="ti-shopping-cart"></span></li>
                                 <li class="toggle__menu hidden-xs hidden-sm"><span class="ti-menu"></span></li>
                             </ul>
@@ -204,7 +204,7 @@
                     </div>
                     <div class="off__contact">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="images/logo/logo.png" alt="logo">
                             </a>
                         </div>
@@ -269,7 +269,7 @@
                                 </a>
                             </div>
                             <div class="shp__pro__details">
-                                <h2><a href="product-details.html">BO&Play Wireless Speaker</a></h2>
+                                <h2><a href="product-details.php">BO&Play Wireless Speaker</a></h2>
                                 <span class="quantity">QTY: 1</span>
                                 <span class="shp__price">$105.00</span>
                             </div>
@@ -284,7 +284,7 @@
                                 </a>
                             </div>
                             <div class="shp__pro__details">
-                                <h2><a href="product-details.html">Brone Candle</a></h2>
+                                <h2><a href="product-details.php">Brone Candle</a></h2>
                                 <span class="quantity">QTY: 1</span>
                                 <span class="shp__price">$25.00</span>
                             </div>
@@ -298,8 +298,8 @@
                         <li class="total__price">$130.00</li>
                     </ul>
                     <ul class="shopping__btn">
-                        <li><a href="cart.html">View Cart</a></li>
-                        <li class="shp__checkout"><a href="checkout.html">Checkout</a></li>
+                        <li><a href="cart.php">View Cart</a></li>
+                        <li class="shp__checkout"><a href="checkout.php">Checkout</a></li>
                     </ul>
                 </div>
             </div>
@@ -313,11 +313,11 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="bradcaump__inner text-center">
-                                <h2 class="bradcaump-title">portfolio card 2 column</h2>
+                                <h2 class="bradcaump-title">Blog Details</h2>
                                 <nav class="bradcaump-inner">
-                                  <a class="breadcrumb-item" href="index.html">Home</a>
+                                  <a class="breadcrumb-item" href="index.php">Home</a>
                                   <span class="brd-separetor">/</span>
-                                  <span class="breadcrumb-item active">portfolio card 2 column</span>
+                                  <span class="breadcrumb-item active">right sidebar</span>
                                 </nav>
                             </div>
                         </div>
@@ -326,128 +326,231 @@
             </div>
         </div>
         <!-- End Bradcaump area -->
-        <div class="portfolio-grid-area bg__white pt--130 pb--100">
-		    <div class="container">
-		        <div class="portfolio-menu-active gutter-btn mb--50 text-center">
-                    <button class="active" data-filter="*">All works</button>
-                    <button data-filter=".cat2">print</button>
-                    <button data-filter=".cat3">Webdesign</button>
-                    <button data-filter=".cat5">Photography</button>
+        <!-- Start Our Blog Area -->
+        <section class="blog-details-wrap ptb--120 bg__white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
+                        <div class="blog-details-left-sidebar">
+                            <div class="blog-details-top">
+                                <!--Start Blog Thumb -->
+                                <div class="blog-details-thumb-wrap">
+                                    <div class="blog-details-thumb">
+                                        <img src="images/blog/big-images/1.jpg" alt="blog images">
+                                    </div>
+                                    <div class="upcoming-date">
+                                        14<span class="upc-mth">Sep,2017</span>
+                                    </div>
+                                </div>
+                                <!--End Blog Thumb -->
+                                <h2>It is a long established fact that a reader will</h2>
+                                <div class="blog-admin-and-comment">
+                                    <p>BY : <a href="#">ADMIN</a></p>
+                                    <p class="separator">|</p>
+                                    <p>3 COMMENTS</p>
+                                </div>
+                                <!-- Start Blog Pra -->
+                                <div class="blog-details-pra">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore d aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conse Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+
+                                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore d aliqua. Ut enim ad minim veniam, </blockquote>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dol orea magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
+                                </div>
+                                <!-- End Blog Pra -->
+                                <!-- Start Blog Tags -->
+                                <div class="postandshare">
+                                    <div class="post">
+                                        <p>TAGS :</p>
+                                    </div>
+                                    <div class="blog-social-icon">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- End Blog Tags -->
+                                <!-- Start Blog Comment Area -->
+                                <div class="our-blog-comment mt--20">
+                                    <div class="blog-comment-inner">
+                                        <h2 class="section-title-2">COMMENTS (03)</h2>
+                                        <!-- Start Single Comment -->
+                                        <div class="single-blog-comment">
+                                            <div class="blog-comment-thumb">
+                                                <img src="images/comment/1.jpg" alt="comment images">
+                                            </div>
+                                            <div class="blog-comment-details">
+                                                <div class="comment-title-date">
+                                                    <h2><a href="#">Martin Payet</a></h2>
+                                                    <div class="reply">
+                                                        <p>14 Sep 2017 / <a href="#">REPLY</a></p>
+                                                    </div>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi ut labore et dolo magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                                            </div>
+                                        </div>
+                                        <!-- End Single Comment -->
+                                        <!-- Start Single Comment -->
+                                        <div class="single-blog-comment comment-reply">
+                                            <div class="blog-comment-thumb">
+                                                <img src="images/comment/2.jpg" alt="comment images">
+                                            </div>
+                                            <div class="blog-comment-details">
+                                                <div class="comment-title-date">
+                                                    <h2><a href="#">Martin Payet</a></h2>
+                                                    <div class="reply">
+                                                        <p>14 Sep 2017 / <a href="#">REPLY</a></p>
+                                                    </div>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi ut labore et dolo magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                                            </div>
+                                        </div>
+                                        <!-- End Single Comment -->
+                                        <!-- Start Single Comment -->
+                                        <div class="single-blog-comment">
+                                            <div class="blog-comment-thumb">
+                                                <img src="images/comment/3.jpg" alt="comment images">
+                                            </div>
+                                            <div class="blog-comment-details">
+                                                <div class="comment-title-date">
+                                                    <h2><a href="#">Martin Payet</a></h2>
+                                                    <div class="reply">
+                                                        <p>14 Sep 2017 / <a href="#">REPLY</a></p>
+                                                    </div>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi ut labore et dolo magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                                            </div>
+                                        </div>
+                                        <!-- End Single Comment -->
+                                    </div>
+                                </div>
+                                <!-- End Blog Comment Area -->
+                                <!-- Start Reply Form -->
+                                <div class="our-reply-form-area mt--20">
+                                    <h2 class="section-title-2">LEAVE A REPLY</h2>
+                                    <div class="reply-form-inner mt--40">
+                                        <div class="reply-form-box">
+                                            <div class="reply-form-box-inner">
+                                                <div class="rfb-single-input">
+                                                    <input type="text" placeholder="Name*">
+                                                </div>
+                                                <div class="rfb-single-input">
+                                                    <input type="email" placeholder="Email*">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="reply-form-box">
+                                            <textarea name="message" placeholder="Message"></textarea>
+                                        </div>
+                                        <div class="blog__details__btn">
+                                            <a class="htc__btn btn--gray" href="#">submit</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Reply Form -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 smt-30 xmt-40">
+                        <div class="blod-details-right-sidebar">
+                            <div class="category-search-area">
+                                <input placeholder="Search......" type="text">
+                                <a class="srch-btn" href="#"><i class="zmdi zmdi-search"></i></a>    
+                            </div>
+                            <!-- Start Category Area -->
+                            <div class="our-category-area mt--60">
+                                <h2 class="section-title-2">CATEGORY</h2>
+                                <ul class="categore-menu">
+                                    <li><a href="#"><i class="zmdi zmdi-caret-right"></i>BLOG <span>20</span></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-caret-right"></i>business <span>40</span></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-caret-right"></i>DESIGN <span>60</span></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-caret-right"></i>BRANDING <span>70</span></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-caret-right"></i>ANTHONY <span>80</span></a></li>
+                                </ul>
+                            </div>
+                            <!-- End Category Area -->
+                            <!-- Start Letaest Blog Area -->
+                            <div class="our-recent-post mt--60">
+                                <h2 class="section-title-2">LATEST POST</h2>
+                                <div class="our-recent-post-wrap">
+                                    <!-- Start Single Post -->
+                                    <div class="single-recent-post">
+                                        <div class="recent-thumb">
+                                            <a href="blog-details.php"><img src="images/blog/sm-img/1.jpg" alt="post images"></a>
+                                        </div>
+                                        <div class="recent-details">
+                                            <div class="recent-post-dtl">
+                                                <h6><a href="blog-details.php">Lorem ipsum dolor sit amet, consectetu adipisicing elit, sed do.</a></h6>
+                                            </div>
+                                            <div class="recent-post-time">
+                                                <p>14 SEP 2017</p>
+                                                <p class="separator">|</p>
+                                                <p>5 : 00 PM</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Post -->
+                                    <!-- Start Single Post -->
+                                    <div class="single-recent-post">
+                                        <div class="recent-thumb">
+                                            <a href="blog-details.php"><img src="images/blog/sm-img/2.jpg" alt="post images"></a>
+                                        </div>
+                                        <div class="recent-details">
+                                            <div class="recent-post-dtl">
+                                                <h6><a href="blog-details.php">Lorem ipsum dolor sit amet, consectetu adipisicing elit, sed do.</a></h6>
+                                            </div>
+                                            <div class="recent-post-time">
+                                                <p>14 SEP 2017</p>
+                                                <p class="separator">|</p>
+                                                <p>5 : 00 PM</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Post -->
+                                    <!-- Start Single Post -->
+                                    <div class="single-recent-post">
+                                        <div class="recent-thumb">
+                                            <a href="blog-details.php"><img src="images/blog/sm-img/3.jpg" alt="post images"></a>
+                                        </div>
+                                        <div class="recent-details">
+                                            <div class="recent-post-dtl">
+                                                <h6><a href="blog-details.php">Lorem ipsum dolor sit amet, consectetu adipisicing elit, sed do.</a></h6>
+                                            </div>
+                                            <div class="recent-post-time">
+                                                <p>14 SEP 2017</p>
+                                                <p class="separator">|</p>
+                                                <p>5 : 00 PM</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Post -->
+                                </div>
+                            </div>
+                            <!-- End Letaest Blog Area -->
+                            <!-- Start Tag -->
+                            <div class="our-blog-tag">
+                                <h2 class="section-title-2">TAGS</h2>
+                                <ul class="tag-menu mt-40">
+                                    <li><a href="#">Planning</a></li>
+                                    <li><a href="#">Consulting</a></li>
+                                    <li><a href="#">Investment</a></li>
+                                    <li><a href="#">Investment</a></li>
+                                    <li><a href="#">planning</a></li>
+                                    <li><a href="#">Management</a></li>
+                                </ul>
+                            </div>
+                            <!-- End Tag -->
+                        </div>
+                    </div>
                 </div>
-                <div class="portfolio-style">
-                    <div class="row grid">
-                        <div class="col-md-6 col-sm-6 col-xs-12 grid-item cat2 cat3">
-                            <div class="single-portfolio-card mb--30">
-                                <div class="portfolio-img">
-                                    <a href="single-portfolio.html">
-                                        <img src="images/portfolio/equal/1.jpg" alt="" />
-                                    </a>
-                                    <div class="portfolio-icon">
-                                        <a class="img-poppu" href="images/portfolio/equal/2.jpg">
-                                            <i class="zmdi zmdi-instagram"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-title portfolio-card-title text-center">
-                                    <h3><a href="single-portfolio.html">TITLE GOES HERE</a></h3>
-                                    <span>Design</span>
-                                </div>				
-                            </div>					
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12 grid-item cat5 cat2">
-                            <div class="single-portfolio-card mb--30">
-                                <div class="portfolio-img">
-                                    <a href="single-portfolio.html">
-                                        <img src="images/portfolio/equal/2.jpg" alt="" />
-                                    </a>
-                                    <div class="portfolio-icon">
-                                        <a class="video-popup" href="https://www.youtube.com/watch?v=cDDWvj_q-o8">
-                                            <i class="zmdi zmdi-videocam"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-title portfolio-card-title text-center">
-                                    <h3><a href="single-portfolio.html">TITLE GOES HERE</a></h3>
-                                    <span>Design</span>
-                                </div>				
-                            </div>						
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12 grid-item cat2 cat3">
-                            <div class="single-portfolio-card mb--30">
-                                <div class="portfolio-img">
-                                    <a href="single-portfolio.html">
-                                        <img src="images/portfolio/equal/3.jpg" alt="" />
-                                    </a>
-                                    <div class="portfolio-icon">
-                                        <a class="video-popup" href="https://www.youtube.com/watch?v=cDDWvj_q-o8">
-                                            <i class="zmdi zmdi-videocam"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-title portfolio-card-title text-center">
-                                    <h3><a href="single-portfolio.html">TITLE GOES HERE</a></h3>
-                                    <span>Design</span>
-                                </div>				
-                            </div>					
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12 grid-item cat5 cat2">
-                            <div class="single-portfolio-card mb--30">
-                                <div class="portfolio-img">
-                                    <a href="single-portfolio.html">
-                                        <img src="images/portfolio/equal/4.jpg" alt="" />
-                                    </a>
-                                    <div class="portfolio-icon">
-                                        <a class="img-poppu" href="images/portfolio/equal/2.jpg">
-                                            <i class="zmdi zmdi-instagram"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-title portfolio-card-title text-center">
-                                    <h3><a href="single-portfolio.html">TITLE GOES HERE</a></h3>
-                                    <span>Design</span>
-                                </div>				
-                            </div>						
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12 grid-item cat2 cat5">
-                            <div class="single-portfolio-card mb--30">
-                                <div class="portfolio-img">
-                                    <a href="single-portfolio.html">
-                                        <img src="images/portfolio/equal/5.jpg" alt="" />
-                                    </a>
-                                    <div class="portfolio-icon">
-                                        <a class="video-popup" href="https://www.youtube.com/watch?v=cDDWvj_q-o8">
-                                            <i class="zmdi zmdi-videocam"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-title portfolio-card-title text-center">
-                                    <h3><a href="single-portfolio.html">TITLE GOES HERE</a></h3>
-                                    <span>Design</span>
-                                </div>				
-                            </div>					
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12 grid-item cat3 cat5">
-                            <div class="single-portfolio-card mb--30">
-                                <div class="portfolio-img">
-                                    <a href="single-portfolio.html">
-                                        <img src="images/portfolio/equal/6.jpg" alt="" />
-                                    </a>
-                                    <div class="portfolio-icon">
-                                        <a class="img-poppu" href="images/portfolio/equal/2.jpg">
-                                            <i class="zmdi zmdi-instagram"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-title portfolio-card-title text-center">
-                                    <h3><a href="single-portfolio.html">TITLE GOES HERE</a></h3>
-                                    <span>Design</span>
-                                </div>				
-                            </div>					
-                        </div>
-                    </div>		
-                </div>
-		    </div>
-		</div>
+            </div>
+        </section>
+        <!-- End Our Blog Area -->  
+
         <!-- Start Footer Area -->
         <footer class="htc__foooter__area gray-bg">
             <div class="container">
@@ -457,7 +560,7 @@
                         <div class="col-md-3 col-lg-3 col-sm-6">
                             <div class="ft__widget">
                                 <div class="ft__logo">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <img src="images/logo/logo.png" alt="footer logo">
                                     </a>
                                 </div>
@@ -518,7 +621,7 @@
                                 <h2 class="ft__title">Infomation</h2>
                                 <ul class="footer-categories">
                                     <li><a href="about.php">About Us</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="contact.php">Contact Us</a></li>
                                     <li><a href="#">Terms & Conditions</a></li>
                                     <li><a href="#">Returns & Exchanges</a></li>
                                     <li><a href="#">Shipping & Delivery</a></li>
@@ -564,9 +667,9 @@
                                     All Right Reserved.</p>
                                 </div>
                                 <ul class="footer__menu">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="shop.html">Product</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="index.php">Home</a></li>
+                                    <li><a href="shop.php">Product</a></li>
+                                    <li><a href="contact.php">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -578,90 +681,6 @@
         <!-- End Footer Area -->
     </div>
     <!-- Body main wrapper end -->
-    <!-- QUICKVIEW PRODUCT -->
-    <div id="quickview-wrapper">
-        <!-- Modal -->
-        <div class="modal fade" id="productModal" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal__container" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="modal-product">
-                            <!-- Start product images -->
-                            <div class="product-images">
-                                <div class="main-image images">
-                                    <img alt="big images" src="images/product/big-img/1.jpg">
-                                </div>
-                            </div>
-                            <!-- end product images -->
-                            <div class="product-info">
-                                <h1>Simple Fabric Bags</h1>
-                                <div class="rating__and__review">
-                                    <ul class="rating">
-                                        <li><span class="ti-star"></span></li>
-                                        <li><span class="ti-star"></span></li>
-                                        <li><span class="ti-star"></span></li>
-                                        <li><span class="ti-star"></span></li>
-                                        <li><span class="ti-star"></span></li>
-                                    </ul>
-                                    <div class="review">
-                                        <a href="#">4 customer reviews</a>
-                                    </div>
-                                </div>
-                                <div class="price-box-3">
-                                    <div class="s-price-box">
-                                        <span class="new-price">$17.20</span>
-                                        <span class="old-price">$45.00</span>
-                                    </div>
-                                </div>
-                                <div class="quick-desc">
-                                    Designed for simplicity and made from high quality materials. Its sleek geometry and material combinations creates a modern look.
-                                </div>
-                                <div class="select__color">
-                                    <h2>Select color</h2>
-                                    <ul class="color__list">
-                                        <li class="red"><a title="Red" href="#">Red</a></li>
-                                        <li class="gold"><a title="Gold" href="#">Gold</a></li>
-                                        <li class="orange"><a title="Orange" href="#">Orange</a></li>
-                                        <li class="orange"><a title="Orange" href="#">Orange</a></li>
-                                    </ul>
-                                </div>
-                                <div class="select__size">
-                                    <h2>Select size</h2>
-                                    <ul class="color__list">
-                                        <li class="l__size"><a title="L" href="#">L</a></li>
-                                        <li class="m__size"><a title="M" href="#">M</a></li>
-                                        <li class="s__size"><a title="S" href="#">S</a></li>
-                                        <li class="xl__size"><a title="XL" href="#">XL</a></li>
-                                        <li class="xxl__size"><a title="XXL" href="#">XXL</a></li>
-                                    </ul>
-                                </div>
-                                <div class="social-sharing">
-                                    <div class="widget widget_socialsharing_widget">
-                                        <h3 class="widget-title-modal">Share this product</h3>
-                                        <ul class="social-icons">
-                                            <li><a target="_blank" title="rss" href="#" class="rss social-icon"><i class="zmdi zmdi-rss"></i></a></li>
-                                            <li><a target="_blank" title="Linkedin" href="#" class="linkedin social-icon"><i class="zmdi zmdi-linkedin"></i></a></li>
-                                            <li><a target="_blank" title="Pinterest" href="#" class="pinterest social-icon"><i class="zmdi zmdi-pinterest"></i></a></li>
-                                            <li><a target="_blank" title="Tumblr" href="#" class="tumblr social-icon"><i class="zmdi zmdi-tumblr"></i></a></li>
-                                            <li><a target="_blank" title="Pinterest" href="#" class="pinterest social-icon"><i class="zmdi zmdi-pinterest"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="addtocart-btn">
-                                    <a href="#">Add to cart</a>
-                                </div>
-                            </div><!-- .product-info -->
-                        </div><!-- .modal-product -->
-                    </div><!-- .modal-body -->
-                </div><!-- .modal-content -->
-            </div><!-- .modal-dialog -->
-        </div>
-        <!-- END Modal -->
-    </div>
-    <!-- END QUICKVIEW PRODUCT -->
     <!-- Placed js at the end of the document so the pages load faster -->
 
     <!-- jquery latest version -->

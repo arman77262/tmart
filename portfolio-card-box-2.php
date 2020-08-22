@@ -15,6 +15,9 @@
     <!-- All css files are included here. -->
     <!-- Bootstrap fremwork main css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Owl Carousel main css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <!-- This core.css file contents all plugings css file. -->
     <link rel="stylesheet" href="css/core.css">
     <!-- Theme shortcodes/elements style -->
@@ -46,7 +49,7 @@
                     <div class="row">
                         <div class="col-md-2 col-lg-2 col-sm-3 col-xs-3">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="images/logo/logo.png" alt="logo">
                                 </a>
                             </div>
@@ -55,32 +58,32 @@
                         <div class="col-md-8 col-lg-8 col-sm-6 col-xs-6">
                             <nav class="mainmenu__nav hidden-xs hidden-sm">
                                 <ul class="main__menu">
-                                    <li class="drop"><a href="index.html">Home</a></li>
-                                    <li class="drop"><a href="portfolio-card-box-2.html">portfolio</a>
+                                    <li class="drop"><a href="index.php">Home</a></li>
+                                    <li class="drop"><a href="portfolio-card-box-2.php">portfolio</a>
                                         <ul class="dropdown">
-                                            <li><a href="portfolio-card-box-2.html">portfolio</a></li>
-                                            <li><a href="single-portfolio.html">Single portfolio</a></li>
+                                            <li><a href="portfolio-card-box-2.php">portfolio</a></li>
+                                            <li><a href="single-portfolio.php">Single portfolio</a></li>
                                         </ul>
                                     </li>
                                     <li class="drop"><a href="blog.php">Blog</a>
                                         <ul class="dropdown">
                                             <li><a href="blog.php">blog 3 column</a></li>
-                                            <li><a href="blog-details.html">Blog details</a></li>
+                                            <li><a href="blog-details.php">Blog details</a></li>
                                         </ul>
                                     </li>
-                                    <li class="drop"><a href="shop.html">Shop</a>
+                                    <li class="drop"><a href="shop.php">Shop</a>
                                         <ul class="dropdown mega_dropdown">
                                             <!-- Start Single Mega MEnu -->
-                                            <li><a class="mega__title" href="shop.html">shop layout</a>
+                                            <li><a class="mega__title" href="shop.php">shop layout</a>
                                                 <ul class="mega__item">
-                                                    <li><a href="shop.html">default shop</a></li>
+                                                    <li><a href="shop.php">default shop</a></li>
                                                 </ul>
                                             </li>
                                             <!-- End Single Mega MEnu -->
                                             <!-- Start Single Mega MEnu -->
-                                            <li><a class="mega__title" href="shop.html">product details layout</a>
+                                            <li><a class="mega__title" href="shop.php">product details layout</a>
                                                 <ul class="mega__item">
-                                                    <li><a href="product-details.html">tab style 1</a></li></li>
+                                                    <li><a href="product-details.php">tab style 1</a></li></li>
                                                 </ul>
                                             </li>
                                             <!-- End Single Mega MEnu -->
@@ -89,7 +92,7 @@
                                                 <ul class="mega__item">
                                                     <li>
                                                         <div class="mega-item-img">
-                                                            <a href="shop.html">
+                                                            <a href="shop.php">
                                                                 <img src="images/feature-img/3.png" alt="">
                                                             </a>
                                                         </div>
@@ -104,53 +107,53 @@
                                             <li><a href="about.php">about</a></li>
                                             <li><a href="#">testimonials <span><i class="zmdi zmdi-chevron-right"></i></span></a>
                                                 <ul class="lavel-dropdown">
-                                                    <li><a href="customer-review.html">customer review</a></li>
+                                                    <li><a href="customer-review.php">customer review</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="shop.html">shop</a></li>
+                                            <li><a href="shop.php">shop</a></li>
                                             <li><a href="shop-sidebar.html">shop sidebar</a></li>
-                                            <li><a href="product-details.html">product details</a></li>
-                                            <li><a href="cart.html">cart</a></li>
-                                            <li><a href="wishlist.html">wishlist</a></li>
-                                            <li><a href="checkout.html">checkout</a></li>
-                                            <li><a href="team.html">team</a></li>
-                                            <li><a href="login-register.html">login & register</a></li>
+                                            <li><a href="product-details.php">product details</a></li>
+                                            <li><a href="cart.php">cart</a></li>
+                                            <li><a href="wishlist.php">wishlist</a></li>
+                                            <li><a href="checkout.php">checkout</a></li>
+                                            <li><a href="team.php">team</a></li>
+                                            <li><a href="login-register.php">login & register</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">contact</a></li>
+                                    <li><a href="contact.php">contact</a></li>
                                 </ul>
                             </nav>
                             <div class="mobile-menu clearfix visible-xs visible-sm">
                                 <nav id="mobile_dropdown">
                                     <ul>
-                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="index.php">Home</a></li>
                                         <li><a href="#">portfolio</a>
                                             <ul>
-                                                <li><a href="portfolio-card-box-2.html">portfolio</a></li>
-                                                <li><a href="single-portfolio.html">Single portfolio</a></li>
+                                                <li><a href="portfolio-card-box-2.php">portfolio</a></li>
+                                                <li><a href="single-portfolio.php">Single portfolio</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="blog.php">blog</a>
                                             <ul>
                                                 <li><a href="blog.php">blog 3 column</a></li>
-                                                <li><a href="blog-details.html">Blog details</a></li>
+                                                <li><a href="blog-details.php">Blog details</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">pages</a>
                                             <ul>
                                                 <li><a href="about.php">about</a></li>
-                                                <li><a href="customer-review.html">customer review</a></li>
-                                                <li><a href="shop.html">shop</a></li>
+                                                <li><a href="customer-review.php">customer review</a></li>
+                                                <li><a href="shop.php">shop</a></li>
                                                 <li><a href="shop-sidebar.html">shop sidebar</a></li>
-                                                <li><a href="product-details.html">product details</a></li>
-                                                <li><a href="cart.html">cart</a></li>
-                                                <li><a href="wishlist.html">wishlist</a></li>
-                                                <li><a href="checkout.html">checkout</a></li>
-                                                <li><a href="team.html">team</a></li>
-                                                <li><a href="login-register.html">login & register</a></li>
+                                                <li><a href="product-details.php">product details</a></li>
+                                                <li><a href="cart.php">cart</a></li>
+                                                <li><a href="wishlist.php">wishlist</a></li>
+                                                <li><a href="checkout.php">checkout</a></li>
+                                                <li><a href="team.php">team</a></li>
+                                                <li><a href="login-register.php">login & register</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">contact</a></li>
+                                        <li><a href="contact.php">contact</a></li>
                                     </ul>
                                 </nav>
                             </div>                         
@@ -159,7 +162,7 @@
                         <div class="col-md-2 col-sm-4 col-xs-3">  
                             <ul class="menu-extra">
                                 <li class="search search__open hidden-xs"><span class="ti-search"></span></li>
-                                <li><a href="login-register.html"><span class="ti-user"></span></a></li>
+                                <li><a href="login-register.php"><span class="ti-user"></span></a></li>
                                 <li class="cart__menu"><span class="ti-shopping-cart"></span></li>
                                 <li class="toggle__menu hidden-xs hidden-sm"><span class="ti-menu"></span></li>
                             </ul>
@@ -171,7 +174,6 @@
             <!-- End Mainmenu Area -->
         </header>
         <!-- End Header Style -->
-        
         <div class="body__overlay"></div>
         <!-- Start Offset Wrapper -->
         <div class="offset__wrapper">
@@ -202,7 +204,7 @@
                     </div>
                     <div class="off__contact">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="images/logo/logo.png" alt="logo">
                             </a>
                         </div>
@@ -267,7 +269,7 @@
                                 </a>
                             </div>
                             <div class="shp__pro__details">
-                                <h2><a href="product-details.html">BO&Play Wireless Speaker</a></h2>
+                                <h2><a href="product-details.php">BO&Play Wireless Speaker</a></h2>
                                 <span class="quantity">QTY: 1</span>
                                 <span class="shp__price">$105.00</span>
                             </div>
@@ -282,7 +284,7 @@
                                 </a>
                             </div>
                             <div class="shp__pro__details">
-                                <h2><a href="product-details.html">Brone Candle</a></h2>
+                                <h2><a href="product-details.php">Brone Candle</a></h2>
                                 <span class="quantity">QTY: 1</span>
                                 <span class="shp__price">$25.00</span>
                             </div>
@@ -296,89 +298,156 @@
                         <li class="total__price">$130.00</li>
                     </ul>
                     <ul class="shopping__btn">
-                        <li><a href="cart.html">View Cart</a></li>
-                        <li class="shp__checkout"><a href="checkout.html">Checkout</a></li>
+                        <li><a href="cart.php">View Cart</a></li>
+                        <li class="shp__checkout"><a href="checkout.php">Checkout</a></li>
                     </ul>
                 </div>
             </div>
             <!-- End Cart Panel -->
         </div>
         <!-- End Offset Wrapper -->
-        <!-- Start Login Register Area -->
-        <div class="htc__login__register bg__white ptb--130" style="background: rgba(0, 0, 0, 0) url(images/bg/5.jpg) no-repeat scroll center center / cover ;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-                        <ul class="login__register__menu" role="tablist">
-                            <li role="presentation" class="login active"><a href="#login" role="tab" data-toggle="tab">Login</a></li>
-                            <li role="presentation" class="register"><a href="#register" role="tab" data-toggle="tab">Register</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Start Login Register Content -->
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-                        <div class="htc__login__register__wrap">
-                            <!-- Start Single Content -->
-                            <div id="login" role="tabpanel" class="single__tabs__panel tab-pane fade in active">
-                                <form class="login" method="post">
-                                    <input type="text" placeholder="User Name*">
-                                    <input type="password" placeholder="Password*">
-                                </form>
-                                <div class="tabs__checkbox">
-                                    <input type="checkbox">
-                                    <span> Remember me</span>
-                                    <span class="forget"><a href="#">Forget Pasword?</a></span>
-                                </div>
-                                <div class="htc__login__btn mt--30">
-                                    <a href="#">Login</a>
-                                </div>
-                                <div class="htc__social__connect">
-                                    <h2>Or Login With</h2>
-                                    <ul class="htc__soaial__list">
-                                        <li><a class="bg--twitter" href="#"><i class="zmdi zmdi-twitter"></i></a></li>
-
-                                        <li><a class="bg--instagram" href="#"><i class="zmdi zmdi-instagram"></i></a></li>
-
-                                        <li><a class="bg--facebook" href="#"><i class="zmdi zmdi-facebook"></i></a></li>
-
-                                        <li><a class="bg--googleplus" href="#"><i class="zmdi zmdi-google-plus"></i></a></li>
-                                    </ul>
-                                </div>
+        <!-- Start Bradcaump area -->
+        <div class="ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(images/bg/2.jpg) no-repeat scroll center center / cover ;">
+            <div class="ht__bradcaump__wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="bradcaump__inner text-center">
+                                <h2 class="bradcaump-title">portfolio card 2 column</h2>
+                                <nav class="bradcaump-inner">
+                                  <a class="breadcrumb-item" href="index.php">Home</a>
+                                  <span class="brd-separetor">/</span>
+                                  <span class="breadcrumb-item active">portfolio card 2 column</span>
+                                </nav>
                             </div>
-                            <!-- End Single Content -->
-                            <!-- Start Single Content -->
-                            <div id="register" role="tabpanel" class="single__tabs__panel tab-pane fade">
-                                <form class="login" method="post">
-                                    <input type="text" placeholder="Name*">
-                                    <input type="email" placeholder="Email*">
-                                    <input type="password" placeholder="Password*">
-                                </form>
-                                <div class="tabs__checkbox">
-                                    <input type="checkbox">
-                                    <span> Remember me</span>
-                                </div>
-                                <div class="htc__login__btn">
-                                    <a href="#">register</a>
-                                </div>
-                                <div class="htc__social__connect">
-                                    <h2>Or Login With</h2>
-                                    <ul class="htc__soaial__list">
-                                        <li><a class="bg--twitter" href="#"><i class="zmdi zmdi-twitter"></i></a></li>
-                                        <li><a class="bg--instagram" href="#"><i class="zmdi zmdi-instagram"></i></a></li>
-                                        <li><a class="bg--facebook" href="#"><i class="zmdi zmdi-facebook"></i></a></li>
-                                        <li><a class="bg--googleplus" href="#"><i class="zmdi zmdi-google-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- End Single Content -->
                         </div>
                     </div>
                 </div>
-                <!-- End Login Register Content -->
             </div>
         </div>
-        <!-- End Login Register Area -->
+        <!-- End Bradcaump area -->
+        <div class="portfolio-grid-area bg__white pt--130 pb--100">
+		    <div class="container">
+		        <div class="portfolio-menu-active gutter-btn mb--50 text-center">
+                    <button class="active" data-filter="*">All works</button>
+                    <button data-filter=".cat2">print</button>
+                    <button data-filter=".cat3">Webdesign</button>
+                    <button data-filter=".cat5">Photography</button>
+                </div>
+                <div class="portfolio-style">
+                    <div class="row grid">
+                        <div class="col-md-6 col-sm-6 col-xs-12 grid-item cat2 cat3">
+                            <div class="single-portfolio-card mb--30">
+                                <div class="portfolio-img">
+                                    <a href="single-portfolio.php">
+                                        <img src="images/portfolio/equal/1.jpg" alt="" />
+                                    </a>
+                                    <div class="portfolio-icon">
+                                        <a class="img-poppu" href="images/portfolio/equal/2.jpg">
+                                            <i class="zmdi zmdi-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-title portfolio-card-title text-center">
+                                    <h3><a href="single-portfolio.php">TITLE GOES HERE</a></h3>
+                                    <span>Design</span>
+                                </div>				
+                            </div>					
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 grid-item cat5 cat2">
+                            <div class="single-portfolio-card mb--30">
+                                <div class="portfolio-img">
+                                    <a href="single-portfolio.php">
+                                        <img src="images/portfolio/equal/2.jpg" alt="" />
+                                    </a>
+                                    <div class="portfolio-icon">
+                                        <a class="video-popup" href="https://www.youtube.com/watch?v=cDDWvj_q-o8">
+                                            <i class="zmdi zmdi-videocam"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-title portfolio-card-title text-center">
+                                    <h3><a href="single-portfolio.php">TITLE GOES HERE</a></h3>
+                                    <span>Design</span>
+                                </div>				
+                            </div>						
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 grid-item cat2 cat3">
+                            <div class="single-portfolio-card mb--30">
+                                <div class="portfolio-img">
+                                    <a href="single-portfolio.php">
+                                        <img src="images/portfolio/equal/3.jpg" alt="" />
+                                    </a>
+                                    <div class="portfolio-icon">
+                                        <a class="video-popup" href="https://www.youtube.com/watch?v=cDDWvj_q-o8">
+                                            <i class="zmdi zmdi-videocam"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-title portfolio-card-title text-center">
+                                    <h3><a href="single-portfolio.php">TITLE GOES HERE</a></h3>
+                                    <span>Design</span>
+                                </div>				
+                            </div>					
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 grid-item cat5 cat2">
+                            <div class="single-portfolio-card mb--30">
+                                <div class="portfolio-img">
+                                    <a href="single-portfolio.php">
+                                        <img src="images/portfolio/equal/4.jpg" alt="" />
+                                    </a>
+                                    <div class="portfolio-icon">
+                                        <a class="img-poppu" href="images/portfolio/equal/2.jpg">
+                                            <i class="zmdi zmdi-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-title portfolio-card-title text-center">
+                                    <h3><a href="single-portfolio.php">TITLE GOES HERE</a></h3>
+                                    <span>Design</span>
+                                </div>				
+                            </div>						
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 grid-item cat2 cat5">
+                            <div class="single-portfolio-card mb--30">
+                                <div class="portfolio-img">
+                                    <a href="single-portfolio.php">
+                                        <img src="images/portfolio/equal/5.jpg" alt="" />
+                                    </a>
+                                    <div class="portfolio-icon">
+                                        <a class="video-popup" href="https://www.youtube.com/watch?v=cDDWvj_q-o8">
+                                            <i class="zmdi zmdi-videocam"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-title portfolio-card-title text-center">
+                                    <h3><a href="single-portfolio.php">TITLE GOES HERE</a></h3>
+                                    <span>Design</span>
+                                </div>				
+                            </div>					
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 grid-item cat3 cat5">
+                            <div class="single-portfolio-card mb--30">
+                                <div class="portfolio-img">
+                                    <a href="single-portfolio.php">
+                                        <img src="images/portfolio/equal/6.jpg" alt="" />
+                                    </a>
+                                    <div class="portfolio-icon">
+                                        <a class="img-poppu" href="images/portfolio/equal/2.jpg">
+                                            <i class="zmdi zmdi-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-title portfolio-card-title text-center">
+                                    <h3><a href="single-portfolio.php">TITLE GOES HERE</a></h3>
+                                    <span>Design</span>
+                                </div>				
+                            </div>					
+                        </div>
+                    </div>		
+                </div>
+		    </div>
+		</div>
         <!-- Start Footer Area -->
         <footer class="htc__foooter__area gray-bg">
             <div class="container">
@@ -388,7 +457,7 @@
                         <div class="col-md-3 col-lg-3 col-sm-6">
                             <div class="ft__widget">
                                 <div class="ft__logo">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <img src="images/logo/logo.png" alt="footer logo">
                                     </a>
                                 </div>
@@ -449,7 +518,7 @@
                                 <h2 class="ft__title">Infomation</h2>
                                 <ul class="footer-categories">
                                     <li><a href="about.php">About Us</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="contact.php">Contact Us</a></li>
                                     <li><a href="#">Terms & Conditions</a></li>
                                     <li><a href="#">Returns & Exchanges</a></li>
                                     <li><a href="#">Shipping & Delivery</a></li>
@@ -495,9 +564,9 @@
                                     All Right Reserved.</p>
                                 </div>
                                 <ul class="footer__menu">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="shop.html">Product</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="index.php">Home</a></li>
+                                    <li><a href="shop.php">Product</a></li>
+                                    <li><a href="contact.php">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -509,6 +578,90 @@
         <!-- End Footer Area -->
     </div>
     <!-- Body main wrapper end -->
+    <!-- QUICKVIEW PRODUCT -->
+    <div id="quickview-wrapper">
+        <!-- Modal -->
+        <div class="modal fade" id="productModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal__container" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-product">
+                            <!-- Start product images -->
+                            <div class="product-images">
+                                <div class="main-image images">
+                                    <img alt="big images" src="images/product/big-img/1.jpg">
+                                </div>
+                            </div>
+                            <!-- end product images -->
+                            <div class="product-info">
+                                <h1>Simple Fabric Bags</h1>
+                                <div class="rating__and__review">
+                                    <ul class="rating">
+                                        <li><span class="ti-star"></span></li>
+                                        <li><span class="ti-star"></span></li>
+                                        <li><span class="ti-star"></span></li>
+                                        <li><span class="ti-star"></span></li>
+                                        <li><span class="ti-star"></span></li>
+                                    </ul>
+                                    <div class="review">
+                                        <a href="#">4 customer reviews</a>
+                                    </div>
+                                </div>
+                                <div class="price-box-3">
+                                    <div class="s-price-box">
+                                        <span class="new-price">$17.20</span>
+                                        <span class="old-price">$45.00</span>
+                                    </div>
+                                </div>
+                                <div class="quick-desc">
+                                    Designed for simplicity and made from high quality materials. Its sleek geometry and material combinations creates a modern look.
+                                </div>
+                                <div class="select__color">
+                                    <h2>Select color</h2>
+                                    <ul class="color__list">
+                                        <li class="red"><a title="Red" href="#">Red</a></li>
+                                        <li class="gold"><a title="Gold" href="#">Gold</a></li>
+                                        <li class="orange"><a title="Orange" href="#">Orange</a></li>
+                                        <li class="orange"><a title="Orange" href="#">Orange</a></li>
+                                    </ul>
+                                </div>
+                                <div class="select__size">
+                                    <h2>Select size</h2>
+                                    <ul class="color__list">
+                                        <li class="l__size"><a title="L" href="#">L</a></li>
+                                        <li class="m__size"><a title="M" href="#">M</a></li>
+                                        <li class="s__size"><a title="S" href="#">S</a></li>
+                                        <li class="xl__size"><a title="XL" href="#">XL</a></li>
+                                        <li class="xxl__size"><a title="XXL" href="#">XXL</a></li>
+                                    </ul>
+                                </div>
+                                <div class="social-sharing">
+                                    <div class="widget widget_socialsharing_widget">
+                                        <h3 class="widget-title-modal">Share this product</h3>
+                                        <ul class="social-icons">
+                                            <li><a target="_blank" title="rss" href="#" class="rss social-icon"><i class="zmdi zmdi-rss"></i></a></li>
+                                            <li><a target="_blank" title="Linkedin" href="#" class="linkedin social-icon"><i class="zmdi zmdi-linkedin"></i></a></li>
+                                            <li><a target="_blank" title="Pinterest" href="#" class="pinterest social-icon"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                            <li><a target="_blank" title="Tumblr" href="#" class="tumblr social-icon"><i class="zmdi zmdi-tumblr"></i></a></li>
+                                            <li><a target="_blank" title="Pinterest" href="#" class="pinterest social-icon"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="addtocart-btn">
+                                    <a href="#">Add to cart</a>
+                                </div>
+                            </div><!-- .product-info -->
+                        </div><!-- .modal-product -->
+                    </div><!-- .modal-body -->
+                </div><!-- .modal-content -->
+            </div><!-- .modal-dialog -->
+        </div>
+        <!-- END Modal -->
+    </div>
+    <!-- END QUICKVIEW PRODUCT -->
     <!-- Placed js at the end of the document so the pages load faster -->
 
     <!-- jquery latest version -->
