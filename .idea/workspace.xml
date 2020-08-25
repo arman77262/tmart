@@ -2,22 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7337c8b-450b-4d7e-8ef3-f251237ff1dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog-details.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-review.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-card-box-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-details.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-portfolio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishlist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-review.php" beforeDir="false" afterPath="$PROJECT_DIR$/customer-review.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-register.php" beforeDir="false" afterPath="$PROJECT_DIR$/login-register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-card-box-2.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-card-box-2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/product-details.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/single-portfolio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishlist.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishlist.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,11 @@
       <option name="presentableId" value="Default" />
       <updated>1598030474716</updated>
       <workItem from="1598030475839" duration="757000" />
-      <workItem from="1598109633814" duration="3126000" />
+      <workItem from="1598109633814" duration="3341000" />
+      <workItem from="1598114609662" duration="641000" />
+      <workItem from="1598118698790" duration="1636000" />
+      <workItem from="1598285681537" duration="847000" />
+      <workItem from="1598361810892" duration="3611000" />
     </task>
     <servers />
   </component>
