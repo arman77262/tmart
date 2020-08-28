@@ -2,7 +2,7 @@
 <html lang="en" class="error-404">
 
 
-<!-- Mirrored from myiideveloper.com/helsinki/last-version/helsinki_green-dark/src/pages_error-404.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Mar 2019 13:06:17 GMT -->
+<!-- Mirrored from myiideveloper.com/helsinki/last-version/helsinki_green-dark/src/pages_error-404.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Mar 2019 13:06:17 GMT -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -41,7 +41,7 @@
                         <div class="row mt-xlg">
                             <div class="col-sm-6  col-sm-offset-3">
                                 <button class="btn btn-sm btn-darker-2 btn-block" onclick="history.back();">Previous page</button>
-                                <a href="index.html" class="btn btn-sm btn-primary btn-block">Dashboard</a>
+                                <a href="index.php" class="btn btn-sm btn-primary btn-block">Dashboard</a>
                                 <a href="pages_faq.html" class="btn btn-sm btn-lighter-2 btn-block mb-xlg">FAQ</a>
                             </div>
                         </div>
@@ -66,5 +66,5 @@
 </body>
 
 
-<!-- Mirrored from myiideveloper.com/helsinki/last-version/helsinki_green-dark/src/pages_error-404.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Mar 2019 13:06:17 GMT -->
+<!-- Mirrored from myiideveloper.com/helsinki/last-version/helsinki_green-dark/src/pages_error-404.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Mar 2019 13:06:17 GMT -->
 </html>

@@ -2,22 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7337c8b-450b-4d7e-8ef3-f251237ff1dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/add_category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/add_subcategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/cat_active.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/cat_inactive.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/edit_rootcat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/edit_subcat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/inc/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/inc/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/manage_category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/manage_subcategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/manage_subsubcategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/AdminLogin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/Format.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Session.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog-details.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/cart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-review.php" beforeDir="false" afterPath="$PROJECT_DIR$/customer-review.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-register.php" beforeDir="false" afterPath="$PROJECT_DIR$/login-register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-card-box-2.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-card-box-2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/product-details.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/single-portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishlist.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishlist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascripts/examples/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/javascripts/examples/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages_error-404.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages_error-404.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +47,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\tmart\admin" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +65,9 @@
       <workItem from="1598114609662" duration="641000" />
       <workItem from="1598118698790" duration="1636000" />
       <workItem from="1598285681537" duration="847000" />
-      <workItem from="1598361810892" duration="3611000" />
+      <workItem from="1598361810892" duration="10595000" />
+      <workItem from="1598534435116" duration="10391000" />
+      <workItem from="1598630008204" duration="2765000" />
     </task>
     <servers />
   </component>
@@ -62,9 +75,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="518" y="292" key="NewPhpFileDialog" timestamp="1598112539434">
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1598380096086">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="518" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1598112539434" />
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1598380096086" />
+    <state x="514" y="91" key="NewPhpClassDialog" timestamp="1598540617357">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="514" y="91" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1598540617357" />
+    <state x="518" y="292" key="NewPhpFileDialog" timestamp="1598544056528">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="518" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1598544056528" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1598630739378">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1598630739378" />
   </component>
 </project>
