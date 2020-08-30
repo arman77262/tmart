@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7337c8b-450b-4d7e-8ef3-f251237ff1dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/add_category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/add_subcategory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/cat_active.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/cat_inactive.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/edit_rootcat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/edit_subcat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/inc/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/inc/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/manage_category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/manage_subcategory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/manage_subsubcategory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/AdminLogin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/Format.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/add_subsubcategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/edit_subsubcat.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/javascripts/examples/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/javascripts/examples/dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/pages_error-404.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages_error-404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/edit_subcat.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/edit_subcat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/manage_subsubcategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/manage_subsubcategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Category.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +30,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -67,7 +52,9 @@
       <workItem from="1598285681537" duration="847000" />
       <workItem from="1598361810892" duration="10595000" />
       <workItem from="1598534435116" duration="10391000" />
-      <workItem from="1598630008204" duration="2765000" />
+      <workItem from="1598630008204" duration="3320000" />
+      <workItem from="1598709182078" duration="5552000" />
+      <workItem from="1598769782500" duration="1028000" />
     </task>
     <servers />
   </component>
@@ -83,10 +70,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="514" y="91" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1598540617357" />
-    <state x="518" y="292" key="NewPhpFileDialog" timestamp="1598544056528">
+    <state x="518" y="292" key="NewPhpFileDialog" timestamp="1598714483385">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="518" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1598544056528" />
+    <state x="518" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1598714483385" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1598630739378">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

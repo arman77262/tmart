@@ -146,6 +146,7 @@ ON tbl_subcategory.rootcatId = tbl_category.id WHERE tbl_subcategory.scatId = '$
         }
     }
 
+
     public function delsubcat($id){
         $query = "DELETE FROM `tbl_subcategory` WHERE `scatId`='$id'";
         $result = $this->db->delete($query);
@@ -153,6 +154,81 @@ ON tbl_subcategory.rootcatId = tbl_category.id WHERE tbl_subcategory.scatId = '$
             echo "<script>window.location='manage_subcategory.php'</script>";
         }else{
 
+        }
+    }
+
+    //end sub category
+
+
+    //start sub sub category
+
+    public function subsubCatInsert($rootcat, $subcat, $subsubcat){
+        $rootcat = $this->fr->validation($rootcat);
+        $subcat = $this->fr->validation($subcat);
+        $subsubcat = $this->fr->validation($subsubcat);
+
+        $rootcat = mysqli_real_escape_string($this->db->link, $rootcat);
+        $subcat = mysqli_real_escape_string($this->db->link, $subcat);
+        $subsubcat = mysqli_real_escape_string($this->db->link, $subsubcat);
+
+        if (empty($rootcat) || empty($subcat) || empty($subsubcat)){
+            $subcatmsg = "<span class='text-danger'>Those Fild Are Must Not Be Empty</span>";
+            return $subcatmsg;
+        }else{
+            $query = "INSERT INTO `tbl_ssubcategory`(`rootcatid`, `subcatid`, `sscatname`) VALUES ('$rootcat','$subcat','$subsubcat')";
+            $insersubcat = $this->db->insert($query);
+            if ($insersubcat){
+                $subcatmsg = "Category Inseted Successfully";
+                return $subcatmsg;
+            }else{
+                $subcatmsg = "<span class='text-danger'><b>Category is Not Inseted</b></span>";
+                return $subcatmsg;
+            }
+        }
+    }
+
+    public function getAllSubSubCat(){
+        $query = "SELECT tbl_ssubcategory.* , tbl_category.catName, tbl_subcategory.subCatName FROM tbl_ssubcategory INNER JOIN tbl_category ON tbl_ssubcategory.rootcatid = tbl_category.id INNER JOIN tbl_subcategory ON tbl_ssubcategory.subcatid= tbl_subcategory.scatId ";
+        $result = $this->db->select($query);
+        return $result;
+    }
+
+    public function getsubsubbyid($id){
+        $query = "SELECT tbl_ssubcategory.* , tbl_category.catName, tbl_subcategory.subCatName FROM tbl_ssubcategory INNER JOIN tbl_category ON tbl_ssubcategory.rootcatid = tbl_category.id INNER JOIN tbl_subcategory ON tbl_ssubcategory.subcatid= tbl_subcategory.scatId WHERE `ssid`= '$id'";
+        $result = $this->db->select($query);
+        return $result;
+    }
+
+    public function subsubCatUpdate($rootcat, $subcat, $subsubcat, $id){
+        $rootcat = $this->fr->validation($rootcat);
+        $subcat = $this->fr->validation($subcat);
+        $subsubcat = $this->fr->validation($subsubcat);
+
+        $rootcat = mysqli_real_escape_string($this->db->link, $rootcat);
+        $subcat = mysqli_real_escape_string($this->db->link, $subcat);
+        $subsubcat = mysqli_real_escape_string($this->db->link, $subsubcat);
+
+        if (empty($rootcat) || empty($subcat) || empty($subsubcat)){
+            $subcatmsg = "<span class='text-danger'>Those Fild Are Must Not Be Empty</span>";
+            return $subcatmsg;
+        }else{
+            $query = "UPDATE `tbl_ssubcategory` SET `rootcatid`='$rootcat',`subcatid`='$subcat',`sscatname`='$subsubcat' WHERE `ssid`='$id'";
+            $insersubcat = $this->db->insert($query);
+            if ($insersubcat){
+                $subcatmsg = "Category Updated Successfully";
+                return $subcatmsg;
+            }else{
+                $subcatmsg = "<span class='text-danger'><b>Category is Not Updated</b></span>";
+                return $subcatmsg;
+            }
+        }
+    }
+
+    public function delSubSubCat($id){
+        $query = "DELETE FROM `tbl_ssubcategory` WHERE `ssid`= '$id'";
+        $result = $this->db->delete($query);
+        if ($result){
+            echo "<script>window.location='manage_subsubcategory.php'</script>";
         }
     }
 }
